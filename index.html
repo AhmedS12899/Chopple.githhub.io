@@ -1,0 +1,68 @@
+<html>
+<head>
+   <title>Play Chopple</title>
+   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+   <script src="{{ url_for('static', filename='js/website.js') }}"></script> -->
+   <link rel="stylesheet" href="css/Chopple.css">
+   <script src="scripts/Chopple.js"></script>
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   
+   <!-- <style>
+     #cluetable{
+      /*says its incorrect but this still works?*/
+      display: {{display}};
+     }
+   </style> -->
+
+</head> 
+<body>  
+  <div id="nav">
+    <h1>Chopple</h1>
+    <button type="button" onclick="openPopup()">How to play</button>
+  </div>
+
+  <div class="popup">
+    <button type="button" onclick="closePopup()">PLAY</button>
+    <div class="popuptext">
+      <p>How to play part 1 </p>
+    </div>
+  </div>
+  <div id="gameArea">
+    <div id="Hint" style="display:none;">
+
+    </div>
+    <!-- <div id="searchbar">
+      <form autocomplete="off" method="POST">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="Guess_name" placeholder="Guess a Character">
+        </div>
+        <input type="submit">
+      </form> -->
+      
+    </div>
+    <div id="guesses">
+      <div id="oneGuess"></div>
+    </div>
+    <!-- <div id="clueTable">
+      <table>
+        <tr>
+            <th>Name</th>
+            <th>Picture</th>
+            <th>Saga</th>
+            <th>Affiliation</th>
+        </tr>
+        {% for row in data %}
+        <tr>
+          {% for cell in row %}
+            coomment: data is a nested dictionary of 
+          <td> {{ cell }} </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </table>
+    </div> -->
+
+  </div>
+
+</body>
+</html>
