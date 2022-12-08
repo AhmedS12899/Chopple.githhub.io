@@ -6,6 +6,7 @@
    <link rel="stylesheet" href="css/Chopple.css">
    <script src="scripts/Chopple.js"></script>
    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    
    <!-- <style>
      #cluetable{
@@ -16,9 +17,10 @@
 
 </head> 
 <body>  
-  <div id="nav">
+  <div class="nav">
     <h1>Chopple</h1>
-    <button type="button" onclick="openPopup()">How to play</button>
+    <button type="button" class="popupBtn" onclick="openPopup()">How to play</button>
+    <button type="button" class="darkModeBtn" onclick="darkMode()">Dark Mode</button>
   </div>
 
   <div class="popup">
