@@ -1,11 +1,12 @@
 <html>
 <head>
    <title>Play Chopple</title>
-   <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+   <!--For Flask <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
    <script src="{{ url_for('static', filename='js/website.js') }}"></script> -->
    <link rel="stylesheet" href="css/Chopple.css">
    <script src="scripts/Chopple.js"></script>
    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    
    <!-- <style>
@@ -21,8 +22,8 @@
     <h1>Chopple</h1>
     <button type="button" class="popupBtn" onclick="openPopup()">How to play</button>
     <button type="button" class="darkModeBtn" onclick="darkMode()">Dark Mode</button>
-  </div>
-
+  </div> 
+  
   <div class="popup">
     <button type="button" onclick="closePopup()">PLAY</button>
     <div class="popuptext">
@@ -33,13 +34,13 @@
     <div id="Hint" style="display:none;">
 
     </div>
-    <!-- <div id="searchbar">
+    <div id="searchbar">
       <form autocomplete="off" method="POST">
         <div class="autocomplete" style="width:300px;">
           <input id="myInput" type="text" name="Guess_name" placeholder="Guess a Character">
         </div>
         <input type="submit">
-      </form> -->
+      </form> 
       
     </div>
     <div id="guesses">
@@ -65,6 +66,5 @@
     </div> -->
 
   </div>
-
 </body>
 </html>

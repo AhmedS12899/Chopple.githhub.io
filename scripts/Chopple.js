@@ -9,8 +9,9 @@ function closePopup(){
 
 function darkMode(){
     document.body.classList.toggle("dark-mode");
-    var element =document.getElementById("nav");
-    $("#nav").toggle("nav-dark-mode");
+    var nav =document.getElementById("nav");
+    nav.toggleClass('nav',false);
+    nav.toggleClass('nav-dark-mode');
     // for (let i = 0; i < nav.getElementsByTagName("button").length; i++) {
     //     nav.getElementsByTagName("button")[i].classList.toggle("nav-dark-mode");
     //     console.log("Reach")
