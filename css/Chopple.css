@@ -1,187 +1,338 @@
 h1{
-    text-align: center;
+  text-align: center;
+  padding-top: 25px;
 }
 
 * { box-sizing: border-box; }
 body {
   font: 16px Arial;
-
-    background-color: white;
-    color: black;
-
+  background-color: white;
+  color: black;
+  margin: 0px;
 }
 
 .autocomplete { 
-  /*the container must be positioned relative:*/
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 input {
-  border: 1px solid transparent;
-  background-color: #f1f1f1;
-  padding: 10px;
-  font-size: 16px;
-  
+border: 1px solid transparent;
+background-color: #f1f1f1;
+padding: 10px;
+font-size: 16px;
+
 }
 input[type=text] {
-  background-color: #f1f1f1;
-  width: 100%;
+background-color: #f1f1f1;
+width: 100%;
 }
 input[type=submit] {
-  background-color: DodgerBlue;
-  color: #fff;
+background-color: DodgerBlue;
+color: #fff;
 }
 
 button.check{
-  padding:11px;
-  background-color: DodgerBlue;
-  color: #fff;
-  font-family: 'Courier New', Courier, monospace;
+padding:11px;
+background-color: DodgerBlue;
+color: #fff;
+font-family: 'Courier New', Courier, monospace;
 }
 .autocomplete-items {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;
-  /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0;
+position: absolute;
+border: 1px solid #d4d4d4;
+border-bottom: none;
+border-top: none;
+z-index: 99;
+top: 100%;
+left: 0;
+right: 0;
 }
 .autocomplete-items div {
-  padding: 10px;
-  cursor: pointer;
-  background-color: #fff;
-  border-bottom: 1px solid #d4d4d4;
+padding: 10px;
+cursor: pointer;
+background-color: #fff;
+border-bottom: 1px solid #d4d4d4;
 }
 .autocomplete-items div:hover {
-  /*when hovering an item:*/
-  background-color: #e9e9e9;
+background-color: #e9e9e9;
 }
 .autocomplete-active {
-  /*when navigating through the items using the arrow keys:*/
-  background-color: DodgerBlue !important;
-  color: #ffffff;
+background-color: DodgerBlue !important;
+color: #ffffff;
 }
 
 :root {
-    --default: #121213;
-    --empty: #3a3a3c;
-    --close: #b59f3b;
-    --right: #538d4e;
-  }
-  
-  #game {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top: 5rem;
-    width: 100%;
-    height: 72vh;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-rows: repeat(6, auto);
-    grid-template-columns: repeat(5, auto);
-  }
-  
-  .box {
-    width: 90px;
-    height: 60px;
-    border: 2px solid var(--empty);
-    margin: 4px;
-    color: white;
-    text-transform: uppercase;
-    display: grid;
-    place-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.4rem;
-  }
-  
-  .box.empty {
-    background: var(--empty);
-  }
-  
-  .box.wrong {
-    background: var(--close);
-  }
-  
-  .box.right {
-    background: var(--right);
-  }
-  
-  table{
-    margin-top: 5%;
-    
-  }
+  --default: #121213;
+  --empty: #3a3a3c;
+  --close: #b59f3b;
+  --right: ;
+}
 
-  th {
-    border:1px solid black;
-  }
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 5rem;
+  width: 100%;
+  height: 72vh;
+}
 
-  .r1{
-    opacity: 0;
-    
-  }
-  .r2{
-    opacity: 0;
-  }
-  .r3{
-    opacity: 0;
-  }
-  .r4{
-    opacity: 0;
-  }
-  .r5{
-    opacity: 0;
-  }
-  .r6{
-    opacity: 0;
-  }
+.grid {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(5, auto);
+}
 
-  .win{
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-top:-50px; /* this is half the height of your div*/  
-    margin-left:-100px; /*this is half of width of your div*/
-    background-color: #121213;
-    height: 300px;
-    width: 350px;
-    display: none;
-  }
+.box {
+  width: 90px;
+  height: 60px;
+  border: 2px solid var(--empty);
+  margin: 4px;
+  color: white;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+}
 
-  .lose{
-    position:absolute;
-    top:50%;
-    left:50%;
-    margin-top:-50px; /* this is half the height of your div*/  
-    margin-left:-100px; /*this is half of width of your div*/
-    background-color: #121213;
-    height: 300px;
-    width: 350px;
-    display: none;
-  }
+.box.empty {
+  background: var(--empty);
+}
 
-  .instruct{
-    position:absolute;
-    top:10%;
-    left:35%;
-    margin-top:-50px; /* this is half the height of your div*/  
-    margin-left:-100px; /*this is half of width of your div*/
-    background-color: #121213;
-    height: 650px;
-    width: 550px;
-    display: none;
+.box.wrong {
+  background: var(--close);
+}
 
-  }
+.box.right {
+  background: var(--right);
+}
 
-  .dark-mode{
-    background-color: black;
-    color: white;
-    
-  }
-
+table{
+  margin-top: 5%;
   
+}
+
+th {
+  border:1px solid black;
+}
+
+.r1{
+  opacity: 0;
+  
+}
+.r2{
+  opacity: 0;
+}
+.r3{
+  opacity: 0;
+}
+.r4{
+  opacity: 0;
+}
+.r5{
+  opacity: 0;
+}
+.r6{
+  opacity: 0;
+}
+
+.win{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+  background-color: #121213;
+  height: 300px;
+  width: 350px;
+  display: none;
+}
+
+.lose{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+  background-color: #121213;
+  height: 300px;
+  width: 350px;
+  display: none;
+}
+
+.instruct{
+  position:absolute;
+  top:10%;
+  left:35%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+  background-color: #121213;
+  height: 650px;
+  width: 550px;
+  display: none;
+
+}
+
+.dark-mode{
+  background-color: black;
+  color: rgb(144, 50, 50);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 99;
+  text-align: center; 
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.a{
+  width: 50px;
+  position: absolute;
+  left:5px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header2 {
+  position: absolute;
+  margin-left: 0%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  right: 0%;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header2 .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+
+.modal-body {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+span.green {
+  background-color: #538d4e;
+  color: #FFFFFF;
+}
+
+span.yellow {
+  background-color: #b59f3b;
+  color: #FFFFFF;
+}
+
+span.green, span.yellow {
+  padding: 4px;
+  margin: -2px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.modal-body li{
+  margin: 16px 0;
+  line-height: 24px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: .5fr .5fr;
+  align-items: center;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.stats{
+  display:block;
+}
+
+.sc{
+  font-size: 30px;
+  margin: 0;
+  left:0;
+}
