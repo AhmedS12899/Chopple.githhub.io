@@ -6,10 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chopple</title>
     <link rel = "stylesheet" href = "Chopple.css">
+    <link rel="shortcut icon" href="/images/chopple.ico">
 </head>
 <body>
-    <h1>Chopple</h1>
+  
+  <div class="navbar">
+    <img class = "a" src = "images/chopple.png">
 
+    <a data-modal-target="#modal">Instructions</a>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">How To Play</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+           <li>You get six guess, try any characters name in One Piece</li>
+           <li><span class = "green">Green in any answer </span> means it's a match!</li>
+           <li><span class = "yellow">Yellow in the height column </span> means it is within 10 cms of the actual height.</li>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+    <a data-modal-target="#modal2">Stats</a>
+      <div class="modal" id="modal2">
+        <div class="modal-header2">
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class = "cont">
+          <div class="stats">
+            <h3>
+              WINS:
+            </h3>
+            <p class = "sc">0</p>
+          </div>
+          <div class="stats">
+            <h3>
+              PERCENTAGE:
+            </h3>
+            <p class = "sc">0</p>
+          </div>
+        </div>
+        </div>
+        
+      <div id="overlay"></div>
+  </div>
+    <h1>Chopple</h1>
 
     <form autocomplete="off">
         <div class = "autocomplete" style ="width:300px;">
@@ -87,15 +128,15 @@
             AHHHHH
           </div>
 
-          <div class = "instruct" id = "instruct">
+          <div class = "instruct" id = "instruct"> 
             dew
           </div>
          
         <div id="game"></div>
     </div>
    
-    <button onclick="myFunction()">Toggle dark mode</button>
+    <button onclick="dm()">Toggle dark mode</button>
 </body>
 
-<script src = "Chopple.js"></script>
+<script src = "scripts/Chopple.js"></script>
 </html>
