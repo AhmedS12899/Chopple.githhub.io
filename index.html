@@ -23,6 +23,7 @@
            <li>You get six guess, try any characters name in One Piece</li>
            <li><span class = "green">Green in any answer </span> means it's a match!</li>
            <li><span class = "yellow">Yellow in the height column </span> means it is within 10 cms of the actual height.</li>
+           <li>Click on Chopple for a surprise !</li>
           </div>
         </div>
         <div id="overlay"></div>
@@ -49,8 +50,16 @@
         </div>
         
       <div id="overlay"></div>
+
+      <a data-modal-target="#modal2"></a>
+
   </div>
-    <h1>Chopple</h1>
+   
+    <h1>
+      <img alt ="" src = "images/choppletitle2.png" class = "b" id = "myImage" onClick = "dm()" style="display: inline;">
+      <img alt ="" src = "images/choppletitle1.png" class = "c" id = "myImage2" onClick = "dm2()" style="display: none;"> 
+    </h1>
+    
 
     <form autocomplete="off">
         <div class = "autocomplete" style ="width:300px;">
@@ -65,11 +74,11 @@
         <table id = "myTable" style="width:100%">
             <tr>
               <th>Name</th>
-              <th>Affliation</th>
-              <th>Hair Color</th>
+              <th style = "background-color: #e289b2;">Affliation</th>
+              <th style = "background-color: #98d3e8;">Hair Color</th>
               <th>Devil Fruit</th>
-              <th>Height</th>
-              <th>Gender</th>
+              <th style = "background-color: #e289b2;">Height</th>
+              <th style = "background-color: #98d3e8;">Gender</th>
             </tr>
             <tr class = "r1">
                 <th></th>
@@ -135,7 +144,7 @@
         <div id="game"></div>
     </div>
    
-    <button onclick="dm()">Toggle dark mode</button>
+    
 </body>
 
 <script src = "scripts/Chopple.js"></script>
