@@ -2,6 +2,15 @@ h1{
   text-align: center;
   padding-top: 25px;
 }
+.b{
+  width: 300px;
+  z-index: 99;
+}
+.c{
+  width: 300px;
+  z-index: 99;
+  
+}
 
 * { box-sizing: border-box; }
 body {
@@ -115,6 +124,7 @@ table{
 
 th {
   border:1px solid black;
+  padding: 15px;
 }
 
 .r1{
@@ -177,6 +187,7 @@ th {
 .dark-mode{
   background-color: black;
   color: rgb(144, 50, 50);
+  
 }
 
 .navbar {
@@ -199,7 +210,7 @@ th {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: #ddd;
+  background: #98d3e8;
   color: black;
 }
 
