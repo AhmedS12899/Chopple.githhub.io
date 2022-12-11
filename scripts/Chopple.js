@@ -80,9 +80,10 @@ check.addEventListener('click', function () {
   var h1 = realan.height - 10;
   var h2 = realan.height + 10;
   
-  //colorscheme(an, realan);
-  if ((myInput.value) === aL[random]) {//Need to make a win window. With a win streak.
+  if ((myInput.value) === aL[random]) {//If user guesses correctly it will label field green and win screen will pop up.
     win++;
+    document.querySelector(".autocomplete").style.display = "none";
+    document.querySelector(".check").style.display = "none";
     if(score ===6){
       document.querySelector(".r1").style.opacity = "1";
       x1[0].innerHTML = an.name;
@@ -264,10 +265,11 @@ check.addEventListener('click', function () {
         x6[5].style.backgroundColor = "#538d4e"
       }
     }
+    
   }
 
   
-  if((myInput.value) != aL[random]){
+  if((myInput.value) != aL[random]){//If user has an incorrect guess it will check which fields are correct.
       if(score ===6){
         document.querySelector(".r1").style.opacity = "1";
         x1[0].innerHTML = an.name;
@@ -532,6 +534,8 @@ check.addEventListener('click', function () {
 
   if(score === 0){ //Need to make a Lose window. With a Lose Streak.
     lose++;
+    document.querySelector(".autocomplete").style.display = "none";
+    document.querySelector(".check").style.display = "none";
   }
  
   myInput.value = "";
@@ -637,13 +641,33 @@ document.addEventListener("click", function (e) {
 autocomplete(document.getElementById("myInput"), aL);
 
 //Darkmode
+var img1 = document.getElementById('myImage');
+var img2 = document.getElementById('myImage2');
 function dm() {
-var element = document.body;
-element.classList.toggle("dark-mode");
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  if((img1.style.display="inline") && (img2.style.display="none")){
+    img1.style.display = "none";
+    img2.style.display ="inline";
+  }
+}
+
+function dm2() {//This bring it to lightmode.
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  if((img1.style.display="none") && (img2.style.display="inline")){
+    img2.style.display = "none";
+    img1.style.display = "inline";
+  }
+  
+}
+
+function swap_pic(img1,img2){
+  
 }
 
 function playAgain(x,x1,x2,x3,x4,x5,x6,random,answer,an,realan){ //Use this to clear everything and change the word.
-  
+
 }
 
 
