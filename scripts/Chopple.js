@@ -646,7 +646,7 @@ function darkMode(){
 
 
 function cropImage(imagePath) {
-  //create an image object from the pathw
+  //create an image object from the path
   const canvas = document.getElementById('canvas'); 
   const ctx = canvas.getContext('2d');
 
