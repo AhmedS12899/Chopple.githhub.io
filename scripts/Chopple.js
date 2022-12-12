@@ -638,36 +638,37 @@ function closePopup(){
 
 function darkMode(){
     document.body.classList.toggle("dark-mode");
-    var nav =document.getElementById("nav");
+    var nav = document.getElementById("nav");
     nav.toggleClass('nav',false);
     nav.toggleClass('nav-dark-mode');
-    // for (let i = 0; i < nav.getElementsByTagName("button").length; i++) {
-    //     nav.getElementsByTagName("button")[i].classList.toggle("nav-dark-mode");
-    //     console.log("Reach")
-    // }
-
-    // if(light="True"){
-    //     let nav =document.getElementById("nav");
-    //     nav.style.backgroundColor="rgb(51, 50, 50)";
-    //     for (let i = 0; i < nav.getElementsByTagName("button").length; i++) {
-    //         nav.getElementsByTagName("button")[i].style.backgroundColor = "rgb(51, 50, 50)";
-    //     }
-    //     document.getElementsByClassName("popup")[0].style.backgroundColor="rgb(75,75,70)";
-    //     document.getElementsByClassName("popup")[0].getElementsByTagName("button")[0].style.backgroundColor="rgb(75,75,70)";
-    //     // document.querySelector("button:hover").style.backgroundColor="lightgrey";
-    //     document.getElementsByClassName("darkModeBtn")[0].value="False";
-    //     console.log(document.getElementsByClassName("darkModeBtn")[0].value);
-    // }else{
-    //     document.body.style.backgroundColor = "white";
-    //     document.getElementById("nav").style.backgroundColor="rgb(146, 207, 228)";
-    //      for (let i = 0; i < document.getElementsByTagName("button").length; i++) {
-    //         document.getElementsByTagName("button")[i].style.backgroundColor = "rgb(146, 207, 228)";
-    //     }
-    //      document.getElementsByClassName("popup")[0].style.backgroundColor="rgb(146, 207, 228)";
-    //      document.getElementsByClassName("darkModeBtn")[0].value="True";
-    //      console.log(document.getElementsByClassName("darkModeBtn")[0].value);
-    
-    //     // document.querySelector("button:hover").style.backgroundColor="lightgrey";
-    // }
 }
+
+
+
+function cropImage(imagePath) {
+  //create an image object from the pathw
+  const canvas = document.getElementById('canvas'); 
+  const ctx = canvas.getContext('2d');
+
+  const originalImage = new Image();
+  originalImage.src = imagePath;
+
+  var array=[0,originalImage.width/2];
+  var array2=[0,originalImage.height/2];
+    console.log(array2);
+
+    newWidth=originalImage.width/2;
+    newHeight=originalImage.height/2;
+
+    canvas.width = originalImage.width/2;
+    canvas.height = originalImage.height/2;
   
+    newX=array[Math.floor(Math.random() * array.length)];
+    newY=array2[Math.floor(Math.random() * array2.length)];
+         
+    //draw the image
+    console.log(originalImage.width);
+    ctx.drawImage(originalImage, newX, newY, newWidth, newHeight, 0, 0, newWidth, newHeight);  
+}
+
+ 

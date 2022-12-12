@@ -132,8 +132,9 @@
     </div>
   </div>
   <div id="gameArea">
-    <div id="Hint" style="display:none;">
-
+    <div id="Hint">
+      <div><canvas id="canvas"></canvas></div>
+      <button type="button" onclick="cropImage('pic.png')">Image cropped</button>
     </div>
     <div id="searchbar">
       <form autocomplete="off" method="POST">
@@ -146,7 +147,6 @@
 
     </div>
     <div id="guesses">
-      <div id="oneGuess"></div>
     </div>
     <!-- <div id="clueTable">
       <table>

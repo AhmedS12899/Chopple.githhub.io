@@ -247,15 +247,7 @@ body{
     position: relative;
     left:10%;
 }
-/*
-#footer{
-  height: 20vh;
-  width: 100vw;
-  background-color: rgb(146, 207, 228);
-  position: absolute;
-  bottom: -20vh;
-}
-*/
+
 .popup {
   position: absolute;
   height: 70vh;
@@ -294,14 +286,13 @@ body{
 #searchbar{
   width:100%;
   height: inherit;
-  border: 1px solid black;
   position: relative;
 }
 #gameArea{
   height: inherit;
   width: 100%;
-  top: 135px;
-  position: relative;
+  top: 160px;
+  position: absolute;
 }
 table{
   width:80%;
