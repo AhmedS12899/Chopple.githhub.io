@@ -2,7 +2,7 @@ const db1 = [
   {
       "name": "Nico Robin",
       "affliation": "pirate",
-      "haircolor": "black",
+      "occupation": "doctor",
       "devilfruit": true,
       "height": 188,
       "gender": "female"
@@ -10,7 +10,7 @@ const db1 = [
   {
       "name": "Monkey D. Luffy",
       "affliation": "pirate",
-      "haircolor": "black",
+      "occupation": "captain",
       "devilfruit": true,
       "height": 174,
       "gender": "male"
@@ -18,7 +18,7 @@ const db1 = [
   {
       "name": "Roronoa Zoro",
       "affliation": "pirate",
-      "haircolor": "black",
+      "occupation": "swordsmen",
       "devilfruit": false,
       "height": 178,
       "gender": "male"
@@ -26,7 +26,7 @@ const db1 = [
   {
       "name": "Monkey D. Garp",
       "affliation": "marine",
-      "haircolor": "grey",
+      "occupation": "vice admiral",
       "devilfruit": false,
       "height": 287,
       "gender": "male"
@@ -34,7 +34,7 @@ const db1 = [
   {
       "name": "Gol D. Roger",
       "affliation": "pirate",
-      "haircolor": "black",
+      "occupation": "captain",
       "devilfruit": false,
       "height": 274,
       "gender": "male"
@@ -42,7 +42,7 @@ const db1 = [
   {
       "name": "Koby",
       "affliation": "marine",
-      "haircolor": "pink",
+      "occupation": "marine captain",
       "devilfruit": false,
       "height": 167,
       "gender": "male"
@@ -52,6 +52,8 @@ const aL = ["Nico Robin", "Monkey D. Luffy", "Roronoa Zoro", "Monkey D. Garp", "
 
 const myInput = document.querySelector('.myInput2');
 const check = document.querySelector('.check');
+const butt = document.querySelector('.butt');
+const butt2 = document.querySelector('.butt2');
 var score = 6;
 var win = 0;
 var lose = 0;
@@ -95,8 +97,8 @@ check.addEventListener('click', function () {
           x1[1].style.backgroundColor = "#538d4e"
         }
 
-      x1[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x1[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x1[2].style.backgroundColor = "#538d4e";
         }
       x1[3].innerHTML = an.devilfruit;
@@ -105,8 +107,6 @@ check.addEventListener('click', function () {
         }
 
       x1[4].innerHTML = an.height;
-      console.log(an.height);
-      console.log(realan.height);
         if(an.height === realan.height){
           x1[4].style.backgroundColor = "#538d4e";
         } 
@@ -127,8 +127,8 @@ check.addEventListener('click', function () {
           x2[1].style.backgroundColor = "#538d4e"
         }
 
-      x2[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x2[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x2[2].style.backgroundColor = "#538d4e";
         }
       x2[3].innerHTML = an.devilfruit;
@@ -157,8 +157,8 @@ check.addEventListener('click', function () {
           x3[1].style.backgroundColor = "#538d4e"
         }
 
-      x3[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x3[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x3[2].style.backgroundColor = "#538d4e";
         }
       x3[3].innerHTML = an.devilfruit;
@@ -187,8 +187,8 @@ check.addEventListener('click', function () {
           x4[1].style.backgroundColor = "#538d4e"
         }
 
-      x4[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x4[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x4[2].style.backgroundColor = "#538d4e";
         }
       x4[3].innerHTML = an.devilfruit;
@@ -217,8 +217,8 @@ check.addEventListener('click', function () {
           x5[1].style.backgroundColor = "#538d4e"
         }
 
-      x5[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x5[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x5[2].style.backgroundColor = "#538d4e";
         }
       x5[3].innerHTML = an.devilfruit;
@@ -247,8 +247,8 @@ check.addEventListener('click', function () {
           x6[1].style.backgroundColor = "#538d4e"
         }
 
-      x6[2].innerHTML = an.haircolor;
-        if(an.haircolor === realan.haircolor){
+      x6[2].innerHTML = an.occupation;
+        if(an.occupation === realan.occupation){
           x6[2].style.backgroundColor = "#538d4e";
         }
       x6[3].innerHTML = an.devilfruit;
@@ -268,269 +268,261 @@ check.addEventListener('click', function () {
     
   }
 
-  
   if((myInput.value) != aL[random]){//If user has an incorrect guess it will check which fields are correct.
       if(score ===6){
         document.querySelector(".r1").style.opacity = "1";
         x1[0].innerHTML = an.name;
-          if(an.name !=realan.name){
-            x1[0].style.backgroundColor = "#FFFFFF";
-          }
+          
         x1[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x1[1].style.backgroundColor = "#538d4e";
           }else{
-            x1[1].style.backgroundColor = "#FFFFFF";
+            x1[1].style.backgroundColor = "--white";
           }
 
-        x1[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x1[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x1[2].style.backgroundColor = "#538d4e";
           }else{
-            x1[2].style.backgroundColor = "#FFFFFF";
+            x1[2].style.backgroundColor = "--white";
           }
         x1[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x1[3].style.backgroundColor = "#538d4e";
           }else{
-            x1[3].style.backgroundColor = "#FFFFFF";
+            x1[3].style.backgroundColor = "--white";
           }
 
         x1[4].innerHTML = an.height;
-        console.log(an.height);
-        console.log(realan.height);
           if(an.height === realan.height){
             x1[4].style.backgroundColor = "#538d4e";
           } 
-          if ((h1) < an.height < (h2)){
-            x1[4].style.backgroundColor = "#b59f3b";// WHY DOES IT KEEP COMING UP YELLOW ??? THE IF STATEMENT ???
-          }else if ((h1) > an.height || an.height > (h2)){
-            x1[4].style.backgroundColor = "#FFFFFF";
+          if ( (h1 < an.height) && (an.height < h2)){
+            x1[4].style.backgroundColor = "#b59f3b";
+          }
+          if ((an.height < h1) || (h2 < an.height)){
+            x1[4].style.backgroundColor = "--white";
           }
         x1[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x1[5].style.backgroundColor = "#538d4e";
         } else{
-          x1[5].style.backgroundColor = "#FFFFFF";
+          x1[5].style.backgroundColor = "--white";
         }
       }
 
       if(score ===5){
         document.querySelector(".r2").style.opacity = "1";
         x2[0].innerHTML = an.name;
-          if(an.name !=realan.name){
-            x2[0].style.backgroundColor = "#FFFFFF";
-          }
+
         x2[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x2[1].style.backgroundColor = "#538d4e"
           } else{
-            x2[1].style.backgroundColor = "#FFFFFF"
+            x2[1].style.backgroundColor = "--white";
           }
 
-        x2[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x2[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x2[2].style.backgroundColor = "#538d4e";
           } else{
-            x2[2].style.backgroundColor = "#FFFFFF"
+            x2[2].style.backgroundColor = "--white"
           }
         x2[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x2[3].style.backgroundColor = "#538d4e";
           }else{
-            x2[3].style.backgroundColor = "#FFFFFF"
+            x2[3].style.backgroundColor = "--white"
           }
 
         x2[4].innerHTML = an.height;
-          if(an.height === realan.height){
-            x2[4].style.backgroundColor = "#538d4e";
-          } 
-          if ((an.height - 10) <= realan.height <= (10 + an.height)){
-            x2[4].style.backgroundColor = "#b59f3b";
-          }
+        if(an.height === realan.height){
+          x2[4].style.backgroundColor = "#538d4e";
+        } 
+        if ( (h1 < an.height) && (an.height < h2)){
+          x2[4].style.backgroundColor = "#b59f3b";
+        }
+        if ((an.height < h1) || (h2 < an.height)){
+          x2[4].style.backgroundColor = "--white";
+        }
         x2[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x2[5].style.backgroundColor = "#538d4e"
         }else{
-          x2[5].style.backgroundColor = "#FFFFFF"
+          x2[5].style.backgroundColor = "--white"
         }
       }
 
       if(score ===4){
         document.querySelector(".r3").style.opacity = "1";
         x3[0].innerHTML = an.name;
-        if(an.name !=realan.name){
-          x3[0].style.backgroundColor = "#FFFFFF";
-        }
+
         x3[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x3[1].style.backgroundColor = "#538d4e"
           } else{
-            x3[1].style.backgroundColor = "#FFFFFF"
+            x3[1].style.backgroundColor = "--white"
           }
 
-        x3[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x3[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x3[2].style.backgroundColor = "#538d4e";
           } else{
-            x3[2].style.backgroundColor = "#FFFFFF"
+            x3[2].style.backgroundColor = "--white"
           }
         x3[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x3[3].style.backgroundColor = "#538d4e";
           } else{
-            x3[3].style.backgroundColor = "#FFFFFF"
+            x3[3].style.backgroundColor = "--white"
           }
 
         x3[4].innerHTML = an.height;
-          if(an.height === realan.height){
-            x3[4].style.backgroundColor = "#538d4e";
-          } 
-          if ((an.height - 10) <= realan.height <= (10 + an.height)){
-            x3[4].style.backgroundColor = "#b59f3b";
-          } else{
-            x3[4].style.backgroundColor = "#FFFFFF"
-          }
+        if(an.height === realan.height){
+          x3[4].style.backgroundColor = "#538d4e";
+        } 
+        if ( (h1 < an.height) && (an.height < h2)){
+          x3[4].style.backgroundColor = "#b59f3b";// WHY DOES IT KEEP COMING UP YELLOW ??? THE IF STATEMENT ???
+        }
+        if ((an.height < h1) || (h2 < an.height)){
+          x3[4].style.backgroundColor = "--white";
+        }
         x3[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x3[5].style.backgroundColor = "#538d4e"
         } else{
-          x3[5].style.backgroundColor = "#FFFFFF"
+          x3[5].style.backgroundColor = "--white"
         }
       }
       
       if(score ===3){
         document.querySelector(".r4").style.opacity = "1";
         x4[0].innerHTML = an.name;
-          if(an.name !=realan.name){
-            x4[0].style.backgroundColor = "#FFFFFF";
-          }
+
         x4[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x4[1].style.backgroundColor = "#538d4e"
           } else{
-            x4[1].style.backgroundColor = "#FFFFFF"
+            x4[1].style.backgroundColor = "--white"
           }
 
-        x4[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x4[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x4[2].style.backgroundColor = "#538d4e";
           } else{
-            x4[2].style.backgroundColor = "#FFFFFF"
+            x4[2].style.backgroundColor = "--white"
           }
         x4[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x4[3].style.backgroundColor = "#538d4e";
           } else{
-            x4[3].style.backgroundColor = "#FFFFFF"
+            x4[3].style.backgroundColor = "--white"
           }
 
         x4[4].innerHTML = an.height;
-          if(an.height === realan.height){
-            x4[4].style.backgroundColor = "#538d4e";
-          } 
-          if ((an.height - 10) <= realan.height <= (10 + an.height)){
-            x4[4].style.backgroundColor = "#b59f3b";
-          } else{
-            x4[4].style.backgroundColor = "#FFFFFF"
-          }
+        if(an.height === realan.height){
+          x4[4].style.backgroundColor = "#538d4e";
+        } 
+        if ( (h1 < an.height) && (an.height < h2)){
+          x4[4].style.backgroundColor = "#b59f3b";
+        }
+        if ((an.height < h1) || (h2 < an.height)){
+          x4[4].style.backgroundColor = "--white";
+        }
         x4[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x4[5].style.backgroundColor = "#538d4e"
         } else{
-          x4[5].style.backgroundColor = "#FFFFFF"
+          x4[5].style.backgroundColor = "--white"
         }
       }
 
       if(score ===2){
         document.querySelector(".r5").style.opacity = "1";
         x5[0].innerHTML = an.name;
-          if(an.name !=realan.name){
-            x1[0].style.backgroundColor = "#FFFFFF";
-          }
+
         x5[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x5[1].style.backgroundColor = "#538d4e"
           } else{
-            x5[1].style.backgroundColor = "#FFFFFF"
+            x5[1].style.backgroundColor = "--white"
           }
 
-        x5[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x5[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x5[2].style.backgroundColor = "#538d4e";
           } else{
-            x5[2].style.backgroundColor = "#FFFFFF"
+            x5[2].style.backgroundColor = "--white"
           }
         x5[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x5[3].style.backgroundColor = "#538d4e";
           } else{
-            x5[3].style.backgroundColor = "#FFFFFF"
+            x5[3].style.backgroundColor = "--white"
           }
 
         x5[4].innerHTML = an.height;
-          if(an.height === realan.height){
-            x5[4].style.backgroundColor = "#538d4e";
-          } 
-          if ((an.height - 10) <= realan.height <= (10 + an.height)){
-            x5[4].style.backgroundColor = "#b59f3b";
-          } else{
-            x5[4].style.backgroundColor = "#FFFFFF"
-          }
+        if(an.height === realan.height){
+          x5[4].style.backgroundColor = "#538d4e";
+        } 
+        if ( (h1 < an.height) && (an.height < h2)){
+          x5[4].style.backgroundColor = "#b59f3b";
+        }
+        if ((an.height < h1) || (h2 < an.height)){
+          x5[4].style.backgroundColor = "--white";
+        }
         x5[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x5[5].style.backgroundColor = "#538d4e"
         } else{
-          x5[5].style.backgroundColor = "#FFFFFF"
+          x5[5].style.backgroundColor = "--white"
         }
       }
 
       if(score ===1){
         document.querySelector(".r6").style.opacity = "1";
         x6[0].innerHTML = an.name;
-          if(an.name !=realan.name){
-            x6[0].style.backgroundColor = "#FFFFFF";
-          }
+
         x6[1].innerHTML = an.affliation;
           if(an.affliation === realan.affliation){
             x6[1].style.backgroundColor = "#538d4e"
           } else{
-            x6[1].style.backgroundColor = "#FFFFFF"
+            x6[1].style.backgroundColor = "--white"
           }
 
-        x6[2].innerHTML = an.haircolor;
-          if(an.haircolor === realan.haircolor){
+        x6[2].innerHTML = an.occupation;
+          if(an.occupation === realan.occupation){
             x6[2].style.backgroundColor = "#538d4e";
           } else{
-            x6[2].style.backgroundColor = "#FFFFFF"
+            x6[2].style.backgroundColor = "--white"
           }
         x6[3].innerHTML = an.devilfruit;
           if(an.devilfruit === realan.devilfruit){
             x6[3].style.backgroundColor = "#538d4e";
           } else{
-            x6[3].style.backgroundColor = "#FFFFFF"
+            x6[3].style.backgroundColor = "--white"
           }
 
         x6[4].innerHTML = an.height;
-          if(an.height === realan.height){
-            x6[4].style.backgroundColor = "#538d4e";
-          } 
-          if ((an.height - 10) <= realan.height <= (10 + an.height)){
-            x6[4].style.backgroundColor = "#b59f3b";
-          } else{
-            x6[4].style.backgroundColor = "#FFFFFF"
-          }
+        if(an.height === realan.height){
+          x6[4].style.backgroundColor = "#538d4e";
+        } 
+        if ( (h1 < an.height) && (an.height < h2)){
+          x6[4].style.backgroundColor = "#b59f3b";
+        }
+        if ((an.height < h1) || (h2 < an.height)){
+          x6[4].style.backgroundColor = "--white";
+        }
         x6[5].innerHTML = an.gender;
         if(an.gender === realan.gender){
           x6[5].style.backgroundColor = "#538d4e"
         } else{
-          x6[5].style.backgroundColor = "#FFFFFF"
+          x6[5].style.backgroundColor = "--white"
         }
       }
 
       score--;
   }
-
 
   if(score === 0){ //Need to make a Lose window. With a Lose Streak.
     lose++;
@@ -650,6 +642,7 @@ function dm() {
     img1.style.display = "none";
     img2.style.display ="inline";
   }
+  
 }
 
 function dm2() {//This bring it to lightmode.
@@ -659,12 +652,8 @@ function dm2() {//This bring it to lightmode.
     img2.style.display = "none";
     img1.style.display = "inline";
   }
-  
 }
 
-function swap_pic(img1,img2){
-  
-}
 
 function playAgain(x,x1,x2,x3,x4,x5,x6,random,answer,an,realan){ //Use this to clear everything and change the word.
 
@@ -745,7 +734,195 @@ function closeModal(modal2) {
   overlay.classList.remove('active')
 }
 
-//Navbar that follows the top of the screen function.
+//Reset Button
+butt.addEventListener('click', function () {
+  score =6;
+  random = Math.floor(Math.random() * aL.length);
+  answer = aL[random];
+  console.log(answer);
+  document.querySelector(".r1").style.opacity = "0";
+  x1[0].style= "--white";
+  x1[0].innerHTML = "";
+  x1[1].style= "--white";
+  x1[1].innerHTML = "";
+  x1[2].style = "--white";
+  x1[2].innerHTML = "";
+  x1[3].style = "--white";
+  x1[3].innerHTML = "";
+  x1[4].style = "--white";
+  x1[4].innerHTML = "";
+  x1[5].style= "--white";
+  x1[5].innerHTML = "";
+
+  document.querySelector(".r2").style.opacity = "0";
+  x2[0].style= "--white";
+  x2[0].innerHTML = "";
+  x2[1].style= "--white";
+  x2[1].innerHTML = "";
+  x2[2].style = "--white";
+  x2[2].innerHTML = "";
+  x2[3].style = "--white";
+  x2[3].innerHTML = "";
+  x2[4].style = "--white";
+  x2[4].innerHTML = "";
+  x2[5].style= "--white";
+  x2[5].innerHTML = "";
+
+  document.querySelector(".r3").style.opacity = "0";
+  x3[0].style= "--white";
+  x3[0].innerHTML = "";
+  x3[1].style= "--white";
+  x3[1].innerHTML = "";
+  x3[2].style = "--white";
+  x3[2].innerHTML = "";
+  x3[3].style = "--white";
+  x3[3].innerHTML = "";
+  x3[4].style = "--white";
+  x3[4].innerHTML = "";
+  x3[5].style= "--white";
+  x3[5].innerHTML = "";
+
+  document.querySelector(".r4").style.opacity = "0";
+  x4[0].style= "--white";
+  x4[0].innerHTML = "";
+  x4[1].style= "--white";
+  x4[1].innerHTML = "";
+  x4[2].style = "--white";
+  x4[2].innerHTML = "";
+  x4[3].style = "--white";
+  x4[3].innerHTML = "";
+  x4[4].style = "--white";
+  x4[4].innerHTML = "";
+  x4[5].style= "--white";
+  x4[5].innerHTML = "";
+
+  document.querySelector(".r5").style.opacity = "0";
+  x5[0].style= "--white";
+  x5[0].innerHTML = "";
+  x5[1].style= "--white";
+  x5[1].innerHTML = "";
+  x5[2].style = "--white";
+  x5[2].innerHTML = "";
+  x5[3].style = "--white";
+  x5[3].innerHTML = "";
+  x5[4].style = "--white";
+  x5[4].innerHTML = "";
+  x5[5].style= "--white";
+  x5[5].innerHTML = "";
+
+  document.querySelector(".r6").style.opacity = "0";
+  x6[0].style= "--white";
+  x6[0].innerHTML = "";
+  x6[1].style= "--white";
+  x6[1].innerHTML = "";
+  x6[2].style = "--white";
+  x6[2].innerHTML = "";
+  x6[3].style = "--white";
+  x6[3].innerHTML = "";
+  x6[4].style = "--white";
+  x6[4].innerHTML = "";
+  x6[5].style= "--white";
+  x6[5].innerHTML = "";
+
+  document.querySelector(".autocomplete").style.display = "inline-block";
+  document.querySelector(".check").style.display = "inline-block";
+});
+
+butt2.addEventListener('click', function () {
+  score =6;
+  random = Math.floor(Math.random() * aL.length);
+  answer = aL[random];
+  console.log(answer);
+  document.querySelector(".r1").style.opacity = "0";
+  x1[0].style= "--white";
+  x1[0].innerHTML = "";
+  x1[1].style= "--white";
+  x1[1].innerHTML = "";
+  x1[2].style = "--white";
+  x1[2].innerHTML = "";
+  x1[3].style = "--white";
+  x1[3].innerHTML = "";
+  x1[4].style = "--white";
+  x1[4].innerHTML = "";
+  x1[5].style= "--white";
+  x1[5].innerHTML = "";
+
+  document.querySelector(".r2").style.opacity = "0";
+  x2[0].style= "--white";
+  x2[0].innerHTML = "";
+  x2[1].style= "--white";
+  x2[1].innerHTML = "";
+  x2[2].style = "--white";
+  x2[2].innerHTML = "";
+  x2[3].style = "--white";
+  x2[3].innerHTML = "";
+  x2[4].style = "--white";
+  x2[4].innerHTML = "";
+  x2[5].style= "--white";
+  x2[5].innerHTML = "";
+
+  document.querySelector(".r3").style.opacity = "0";
+  x3[0].style= "--white";
+  x3[0].innerHTML = "";
+  x3[1].style= "--white";
+  x3[1].innerHTML = "";
+  x3[2].style = "--white";
+  x3[2].innerHTML = "";
+  x3[3].style = "--white";
+  x3[3].innerHTML = "";
+  x3[4].style = "--white";
+  x3[4].innerHTML = "";
+  x3[5].style= "--white";
+  x3[5].innerHTML = "";
+
+  document.querySelector(".r4").style.opacity = "0";
+  x4[0].style= "--white";
+  x4[0].innerHTML = "";
+  x4[1].style= "--white";
+  x4[1].innerHTML = "";
+  x4[2].style = "--white";
+  x4[2].innerHTML = "";
+  x4[3].style = "--white";
+  x4[3].innerHTML = "";
+  x4[4].style = "--white";
+  x4[4].innerHTML = "";
+  x4[5].style= "--white";
+  x4[5].innerHTML = "";
+
+  document.querySelector(".r5").style.opacity = "0";
+  x5[0].style= "--white";
+  x5[0].innerHTML = "";
+  x5[1].style= "--white";
+  x5[1].innerHTML = "";
+  x5[2].style = "--white";
+  x5[2].innerHTML = "";
+  x5[3].style = "--white";
+  x5[3].innerHTML = "";
+  x5[4].style = "--white";
+  x5[4].innerHTML = "";
+  x5[5].style= "--white";
+  x5[5].innerHTML = "";
+
+  document.querySelector(".r6").style.opacity = "0";
+  x6[0].style= "--white";
+  x6[0].innerHTML = "";
+  x6[1].style= "--white";
+  x6[1].innerHTML = "";
+  x6[2].style = "--white";
+  x6[2].innerHTML = "";
+  x6[3].style = "--white";
+  x6[3].innerHTML = "";
+  x6[4].style = "--white";
+  x6[4].innerHTML = "";
+  x6[5].style= "--white";
+  x6[5].innerHTML = "";
+
+  document.querySelector(".autocomplete").style.display = "inline-block";
+  document.querySelector(".check").style.display = "inline-block";
+});
+
+
+/*Navbar that follows the top of the screen function.
 window.onscroll = function() {myFunction()};
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -755,4 +932,6 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
-}
+}*/
+
+
