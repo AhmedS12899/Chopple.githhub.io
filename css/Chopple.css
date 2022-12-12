@@ -42,8 +42,8 @@ color: #fff;
 
 button.check{
 padding:11px;
-background-color: DodgerBlue;
-color: #fff;
+background-color: #98d3e8;
+color: var(--white);
 font-family: 'Courier New', Courier, monospace;
 }
 .autocomplete-items {
@@ -74,7 +74,8 @@ color: #ffffff;
   --default: #121213;
   --empty: #3a3a3c;
   --close: #b59f3b;
-  --right: ;
+  --right: #538d4e;
+  --white: #FFFFFF;
 }
 
 #game {
@@ -123,13 +124,12 @@ table{
 }
 
 th {
-  border:1px solid black;
+  border:2px solid black;
   padding: 15px;
 }
 
 .r1{
-  opacity: 0;
-  
+  opacity: 0; 
 }
 .r2{
   opacity: 0;
@@ -147,29 +147,26 @@ th {
   opacity: 0;
 }
 
-.win{
+.butt, .butt2{
+  padding:10px;
+  background-color: #98d3e8;
+  color: var(--white);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.win,.lose{
   position:absolute;
+  text-align: center;
   top:50%;
   left:50%;
   margin-top:-50px; /* this is half the height of your div*/  
   margin-left:-100px; /*this is half of width of your div*/
-  background-color: #121213;
-  height: 300px;
-  width: 350px;
+  background-color: var(--default);
+  padding:50px;
+  color: var(--white);
   display: none;
 }
 
-.lose{
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-top:-50px; /* this is half the height of your div*/  
-  margin-left:-100px; /*this is half of width of your div*/
-  background-color: #121213;
-  height: 300px;
-  width: 350px;
-  display: none;
-}
 
 .instruct{
   position:absolute;
@@ -185,9 +182,71 @@ th {
 }
 
 .dark-mode{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.dark-mode input{
+  color:black;
+}
+
+.dark-mode th{
+  border:2px solid white;
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+}
+
+.dark-mode input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+  }
+
+.dark-mode .autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
   background-color: black;
-  color: rgb(144, 50, 50);
-  
+  border-bottom: 1px solid #d4d4d4;
+  }
+
+.dark-mode .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid white;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: black;
+  width: 500px;
+  max-width: 80%;
+}
+
+.dark-mode .box {
+  width: 90px;
+  height: 60px;
+  border: 2px solid var(--empty);
+  margin: 4px;
+  color: black;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+}
+
+.dark-mode :root{
+  --white: "black";
+}
+
+.dark-mode .win{
+  background-color: var(--white);
+  color: var(--default);
+}
+
+.dark-mode .lose{
+  background-color: var(--white);
+  color: var(--default);
 }
 
 .navbar {
@@ -242,6 +301,7 @@ th {
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
 }
+					
 
 .modal-header {
   padding: 10px 15px;
@@ -272,6 +332,7 @@ th {
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
+  color: #e289b2;
 }
 
 .modal-header2 .close-button {
@@ -281,9 +342,8 @@ th {
   background: none;
   font-size: 1.25rem;
   font-weight: bold;
+  color: #98d3e8;
 }
-
-
 
 .modal-body {
   padding: 10px 15px;
