@@ -132,10 +132,13 @@
     </div>
   </div>
   <div id="gameArea">
+
     <div id="Hint">
       <div><canvas id="canvas"></canvas></div>
-      <button type="button" onclick="cropImage('pic.png')">Image cropped</button>
+      <button type="button" onclick="cropImage('https://toppng.com/uploads/preview/file-history-one-piece-logo-11563071942adcognuldv.png')">Image cropped</button>
+      <!--instead of button trigger should automatically trigger when Lives=4-->
     </div>
+
     <div id="searchbar">
       <form autocomplete="off" method="POST">
         <div class="autocomplete" style="width:300px;">
@@ -143,10 +146,9 @@
         </div>
         <input type="submit">
       </form> 
-      
-
     </div>
     <div id="guesses">
+      <p id="lives">Lives:</p>
     </div>
     <!-- <div id="clueTable">
       <table>

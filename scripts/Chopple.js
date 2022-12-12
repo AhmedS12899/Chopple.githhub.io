@@ -507,6 +507,8 @@ console.log(answer);
         }
 
         score--;
+        console.log(score);
+        document.getElementById("Lives").innerHTML="Lives:"+score;
     }
 
 
@@ -642,8 +644,6 @@ function darkMode(){
     nav.toggleClass('nav',false);
     nav.toggleClass('nav-dark-mode');
 }
-
-
 
 function cropImage(imagePath) {
   //create an image object from the path
