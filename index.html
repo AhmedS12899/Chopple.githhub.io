@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="/images/chopple.ico">
 </head>
 <body>
-  
   <div class="navbar">
     <img class = "a" src = "images/chopple.png">
 
@@ -50,9 +49,6 @@
         </div>
         
       <div id="overlay"></div>
-
-      <a data-modal-target="#modal2"></a>
-
   </div>
    
     <h1>
@@ -61,6 +57,7 @@
     </h1>
     
 
+    
     <form autocomplete="off">
         <div class = "autocomplete" style ="width:300px;">
             <input id = "myInput" class = "myInput2" type = "text" name = "characterdata" placeholder="Enter a character.">
@@ -75,7 +72,7 @@
             <tr>
               <th>Name</th>
               <th style = "background-color: #e289b2;">Affliation</th>
-              <th style = "background-color: #98d3e8;">Hair Color</th>
+              <th style = "background-color: #98d3e8;">Occupation</th>
               <th>Devil Fruit</th>
               <th style = "background-color: #e289b2;">Height</th>
               <th style = "background-color: #98d3e8;">Gender</th>
@@ -131,19 +128,20 @@
           </table>
 
           <div class = "win" id = "win">
-            dew
+            <p>Congratulations, Play Again!</p>
+            <button id = "myBtn" class = "butt">Restart</button> 
+
           </div>
           <div class = "lose" id = "lose">
-            AHHHHH
+            <p>Better Luck Next Time.</p>
+            <p>The Answer Was: <span class = 'ans'>Ur Mom</span></p>
+            <button id = "myBtn" class = "butt2">Restart</button> 
           </div>
 
-          <div class = "instruct" id = "instruct"> 
-            dew
-          </div>
-         
         <div id="game"></div>
     </div>
    
+    
     
 </body>
 
