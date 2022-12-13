@@ -5,7 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chopple</title>
+    <link rel = "stylesheet" href = "Chopple<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chopple</title>
     <link rel = "stylesheet" href = "Chopple.css">
+    <link rel="shortcut icon" href="/images/chopple.ico">
+</head>
+<body>
+  <div class="navbar">
+    <img class = "a" src = "images/chopple.png">
+
+    <a data-modal-target="#modal">Instructions</a>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="title">How To Play</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+           <li>You get six guess, try any characters name in One Piece</li>
+           <li><span class = "green">Green in any answer </span> means it's a match!</li>
+           <li><span class = "yellow">Yellow in the height column </span> means it is within 10 cms of the actual height.</li>
+           <li>Click on Chopple for a surprise !</li>
+          </div>
+        </div>
+        <div id="overlay"></div>
+
+    <a data-modal-target="#modal2">Stats</a>
+      <div class="modal" id="modal2">
+        <div class="modal-header2">
+          <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class = "cont">
+          <div class="stats">
+            <h3>
+              WINS:
+            </h3>
+            <p class = "sc"><span class = "pc1">0</span></p>
+          </div>
+          <div class="stats">
+            <h3>
+              LOSS:
+            </h3>
+            <p class = "sc"><span class = "pc2">0</span></p>
+          </div>
+          <div class="stats">
+            <h3>
+              PERCENTAGE:
+            </h3>
+            <p class = "sc"><span class = "pc3">0</span>%</p>
+          </div>
+        </div>
+        </div>
+        
+      <div id="overlay"></div>
+  </div>
+   
+    <h1>
+      <img alt ="" src = "images/choppletitle2.png" class = "b" id = "myImage" onClick = "dm()" style="display: inline;">
+      <img alt ="" src = "images/choppletitle1.png" class = "c" id = "myImage2" onClick = "dm2()" style="display: none;"> 
+    </h1>
+    
+
+    
+    <form autocomplete="off">
+        <div class = "autocomplete" style ="width:300px;">
+            <input id = "myInput" class = "myInput2" type = "text" name = "characterdata" placeholder="Enter a character.">
+        </div>
+        <button type = "button" class='check'>Check</button>
+        
+    </form>
+
+     
+    <div id = "chart">
+        <table id = "myTable" style="width:100%">
+            <tr>
+              <th>Name</th>
+              <th style = "background-color: #e289b2;">Affliation</th>
+              <th style = "background-color: #98d3e8;">Occupation</th>
+              <th>Devil Fruit</th>
+              <th style = "background-color: #e289b2;">Height</th>
+              <th style = "background-color: #98d3e8;">Gender</th>
+            </tr>
+            <tr class = "r1">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r2">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r3">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r4">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r5">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r6">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+              </tr>
+          </table>
+
+          <div class = "win" id = "win">
+            <p>Congratulations, Play Again!</p>
+            <button id = "myBtn" class = "butt">Restart</button>
+          </div>
+          <div class = "lose" id = "lose">
+            <p>Better Luck Next Time.</p>
+            <p>The Answer Was: <span class = 'ans'>Ur Mom</span></p>
+            <button id = "myBtn" class = "butt2">Restart</button>
+             
+          </div>
+
+
+        <div id="game"></div>
+    </div>
+   
+    
+    
+</body>
+
+<script src = "scripts/Chopple.js"></script>
+</html>
+.css">
 </head>
 <body>
     <h1>Chopple</h1>
