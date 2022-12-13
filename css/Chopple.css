@@ -19,7 +19,10 @@ body {
   color: black;
   margin: 0px;
 }
-
+form{
+  display: flex;
+  justify-content: center;
+}
 .autocomplete { 
 position: relative;
 display: inline-block;
