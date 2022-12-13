@@ -7,7 +7,8 @@ const db1 = [
         "height": 188,
         "gender": "female"
     },
-    {
+    {      "devilfruit": true,
+
         "name": "Monkey D. Luffy",
         "affliation": "pirate",
         "haircolor": "black",
