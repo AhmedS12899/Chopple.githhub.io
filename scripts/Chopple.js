@@ -56,11 +56,13 @@ const butt = document.querySelector('.butt');
 const butt2 = document.querySelector('.butt2');
 var score = 6;
 var win = 0;
+const win_score = "win";
 var lose = 0;
-var total = win + lose;
-var avg = win /total;
+const lose_score = "lose";
+var avg = 0;
+const average = "average";
 var random = Math.floor(Math.random() * aL.length);
-var answer = aL[random];
+var answer = aL[random]; //Gives the answer if you really want to check console however after project is graded we will remove it.
 var x = document.getElementById("myTable").rows[0].cells;
 var x1 = document.getElementById("myTable").rows[1].cells;
 var x2 = document.getElementById("myTable").rows[2].cells;
@@ -68,22 +70,21 @@ var x3 = document.getElementById("myTable").rows[3].cells;
 var x4 = document.getElementById("myTable").rows[4].cells;
 var x5 = document.getElementById("myTable").rows[5].cells;
 var x6 = document.getElementById("myTable").rows[6].cells;
-
-localStorage.setItem('win', win);
-localStorage.setItem('lose',lose);
-localStorage.setItem('total',total);
-localStorage.setItem('avg', avg);
-
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
 console.log(answer);
 
 check.addEventListener('click', function () {
-  const an = db1.find((names) => names.name === myInput.value);
-  const realan = db1.find((names) => names.name === answer);
+  const an = db1.find((names) => names.name === myInput.value);//Users answer 
+  const realan = db1.find((names) => names.name === answer);//Actual answer
   var h1 = realan.height - 10;
   var h2 = realan.height + 10;
   
   if ((myInput.value) === aL[random]) {//If user guesses correctly it will label field green and win screen will pop up.
     win++;
+    localStorage.setItem(win_score, win);
+    document.querySelector('.win').style.display = "inline"
     document.querySelector(".autocomplete").style.display = "none";
     document.querySelector(".check").style.display = "none";
     if(score ===6){
@@ -524,8 +525,11 @@ check.addEventListener('click', function () {
       score--;
   }
 
-  if(score === 0){ //Need to make a Lose window. With a Lose Streak.
+  if(score === 0){ //When you lose the lose screen pops up.
     lose++;
+    localStorage.setItem(lose_score, lose);
+    document.querySelector('.ans').textContent = realan.name;
+    document.querySelector('.lose').style.display = "inline"
     document.querySelector(".autocomplete").style.display = "none";
     document.querySelector(".check").style.display = "none";
   }
@@ -533,90 +537,62 @@ check.addEventListener('click', function () {
   myInput.value = "";
 });
 
-function autocomplete(inp, arr) {
-  /*the autocomplete function takes two arguments,
-  the text field element and an array of possible autocompleted values:*/
-  var currentFocus;
-  /*execute a function when someone writes in the text field:*/
+function autocomplete(inp, arr) {//Function for the autocompleting search bar.
+  var cf = 0;
   inp.addEventListener("input", function(e) {
       var a, b, i, val = this.value;
-      /*close any already open lists of autocompleted values*/
-      closeAllLists();
+      
+      closeLists();
       if (!val) { return false;}
-      currentFocus = -1;
-      /*create a DIV element that will contain the items (values):*/
+      cf = -1;
       a = document.createElement("DIV");
       a.setAttribute("id", this.id + "autocomplete-list");
       a.setAttribute("class", "autocomplete-items");
-      /*append the DIV element as a child of the autocomplete container:*/
       this.parentNode.appendChild(a);
-      /*for each item in the array...*/
       for (i = 0; i < arr.length; i++) {
-        /*check if the item starts with the same letters as the text field value:*/
         if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-          /*create a DIV element for each matching element:*/
           b = document.createElement("DIV");
-          /*make the matching letters bold:*/
           b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
           b.innerHTML += arr[i].substr(val.length);
-          /*insert a input field that will hold the current array item's value:*/
           b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-          /*execute a function when someone clicks on the item value (DIV element):*/
               b.addEventListener("click", function(e) {
-              /*insert the value for the autocomplete text field:*/
               inp.value = this.getElementsByTagName("input")[0].value;
-              /*close the list of autocompleted values,
-              (or any other open lists of autocompleted values:*/
-              closeAllLists();
+              closeLists();
           });
           a.appendChild(b);
         }
       }
   });
-  /*execute a function presses a key on the keyboard:*/
+
   inp.addEventListener("keydown", function(e) {
       var x = document.getElementById(this.id + "autocomplete-list");
       if (x) x = x.getElementsByTagName("div");
       if (e.keyCode == 40) {
-        /*If the arrow DOWN key is pressed,
-        increase the currentFocus variable:*/
-        currentFocus++;
-        /*and and make the current item more visible:*/
+        cf++;
         addActive(x);
       } else if (e.keyCode == 38) { //up
-        /*If the arrow UP key is pressed,
-        decrease the currentFocus variable:*/
-        currentFocus--;
-        /*and and make the current item more visible:*/
+        cf--;
         addActive(x);
       } else if (e.keyCode == 13) {
-        /*If the ENTER key is pressed, prevent the form from being submitted,*/
         e.preventDefault();
-        if (currentFocus > -1) {
-          /*and simulate a click on the "active" item:*/
-          if (x) x[currentFocus].click();
+        if (cf > -1) {
+          if (x) x[cf].click();
         }
       }
   });
   function addActive(x) {
-    /*a function to classify an item as "active":*/
     if (!x) return false;
-    /*start by removing the "active" class on all items:*/
     removeActive(x);
-    if (currentFocus >= x.length) currentFocus = 0;
-    if (currentFocus < 0) currentFocus = (x.length - 1);
-    /*add class "autocomplete-active":*/
-    x[currentFocus].classList.add("autocomplete-active");
+    if (cf >= x.length) cf = 0;
+    if (cf < 0) cf = (x.length - 1);
+    x[cf].classList.add("autocomplete-active");
   }
   function removeActive(x) {
-    /*a function to remove the "active" class from all autocomplete items:*/
     for (var i = 0; i < x.length; i++) {
       x[i].classList.remove("autocomplete-active");
     }
   }
-  function closeAllLists(elmnt) {
-    /*close all autocomplete lists in the document,
-    except the one passed as an argument:*/
+  function closeLists(elmnt) {//After the choice is clicked the list will close and show the element.
     var x = document.getElementsByClassName("autocomplete-items");
     for (var i = 0; i < x.length; i++) {
       if (elmnt != x[i] && elmnt != inp) {
@@ -624,15 +600,15 @@ function autocomplete(inp, arr) {
     }
   }
 }
-/*execute a function when someone clicks in the document:*/
+
 document.addEventListener("click", function (e) {
-    closeAllLists(e.target);
+    closeLists(e.target);
 });
 }
 
 autocomplete(document.getElementById("myInput"), aL);
 
-//Darkmode
+//Darkmode screen, also swaps Chopple title.
 var img1 = document.getElementById('myImage');
 var img2 = document.getElementById('myImage2');
 function dm() {
@@ -645,7 +621,7 @@ function dm() {
   
 }
 
-function dm2() {//This bring it to lightmode.
+function dm2() {//This bring it back to lightmode.
   var element = document.body;
   element.classList.toggle("dark-mode");
   if((img1.style.display="none") && (img2.style.display="inline")){
@@ -654,19 +630,8 @@ function dm2() {//This bring it to lightmode.
   }
 }
 
-
-function playAgain(x,x1,x2,x3,x4,x5,x6,random,answer,an,realan){ //Use this to clear everything and change the word.
-
-}
-
-
-
 //Modal Box for instructions & stats.
 //Instruct Modal
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
-
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
     const modal = document.querySelector(button.dataset.modalTarget)
@@ -674,6 +639,7 @@ openModalButtons.forEach(button => {
   })
 })
 
+//Instructions Modal.
 overlay.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal.active')
   modals.forEach(modal => {
@@ -681,6 +647,7 @@ overlay.addEventListener('click', () => {
   })
 })
 
+//Close Button.
 closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
     const modal = button.closest('.modal')
@@ -688,6 +655,7 @@ closeModalButtons.forEach(button => {
   })
 })
 
+//Instructions window open and close.
 function openModal(modal) {
   if (modal == null) return
   modal.classList.add('active')
@@ -703,11 +671,32 @@ function closeModal(modal) {
 //Stat Modal
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
+    var scoreStr1 = localStorage.getItem(win_score); //Stores win score.
+    if (scoreStr1 == null) {
+      win = 0;
+    } else {
+      win = parseInt(scoreStr1);
+    }
+    document.querySelector('.pc1').textContent = " " + win;
+
+   
+    
+    var scoreStr2 = localStorage.getItem(lose_score);//Stores lose score.
+    if (scoreStr2 == null) {
+      lose = 0;
+    } else {
+      lose = parseInt(scoreStr2);
+    }
+    document.querySelector('.pc2').textContent = " " + lose;
+    avg = (win / (win+lose)).toFixed(2); //Average score.
+    document.querySelector('.pc3').textContent = " " + avg;
     const modal2 = document.querySelector("modal2")
     openModal(modal2)
   })
+  
 })
 
+//Stats window open and close.
 overlay.addEventListener('click', () => {
   const modals2 = document.querySelectorAll('.modal.active')
   modals2.forEach(modal2 => {
@@ -715,6 +704,7 @@ overlay.addEventListener('click', () => {
   })
 })
 
+//Close Button.
 closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
     const modal = button.closest('.modal')
@@ -726,6 +716,7 @@ function openModal(modal2) {
   if (modal2 == null) return
   modal2.classList.add('active')
   overlay.classList.add('active')
+  
 }
 
 function closeModal(modal2) {
@@ -736,6 +727,8 @@ function closeModal(modal2) {
 
 //Reset Button
 butt.addEventListener('click', function () {
+  
+  document.querySelector('.win').style.display = "none"
   score =6;
   random = Math.floor(Math.random() * aL.length);
   answer = aL[random];
@@ -829,6 +822,7 @@ butt.addEventListener('click', function () {
 });
 
 butt2.addEventListener('click', function () {
+  document.querySelector('.lose').style.display = "none"
   score =6;
   random = Math.floor(Math.random() * aL.length);
   answer = aL[random];
@@ -920,18 +914,3 @@ butt2.addEventListener('click', function () {
   document.querySelector(".autocomplete").style.display = "inline-block";
   document.querySelector(".check").style.display = "inline-block";
 });
-
-
-/*Navbar that follows the top of the screen function.
-window.onscroll = function() {myFunction()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}*/
-
-
