@@ -1,0 +1,1869 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Pirate Captain",
+            "Emperor",
+            "Straw Hat Grand Fleet",
+            "Baratie",
+            "Bandit"
+        ],
+        "age": "19",
+        "height": "91",
+        "bounty": "3,000,000,000"
+    },
+    {
+        "name": "Nami",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Navigator",
+            "Pirate",
+            "Officer"
+        ],
+        "age": "20",
+        "height": "169",
+        "bounty": "366,000,000"
+    },
+    {
+        "name": "Roronoa Zoro",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Swordsman",
+            "Pirate",
+            "Combatant",
+            "Officer",
+            "Rōnin",
+            "Bounty Hunter"
+        ],
+        "age": "21",
+        "height": "178",
+        "bounty": "1,111,000,000"
+    },
+    {
+        "name": "Sanji",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Cook",
+            "Pirate",
+            "Officer",
+            "Prince"
+        ],
+        "age": "21",
+        "height": "177",
+        "bounty": "1,032,000,000"
+    },
+    {
+        "name": "Usopp",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Sniper",
+            "Pirate",
+            "Officer",
+            "Captain"
+        ],
+        "age": "19",
+        "height": "174",
+        "bounty": "500,000,000"
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Doctor",
+            "Pirate",
+            "Officer"
+        ],
+        "age": "17",
+        "height": "90",
+        "bounty": "1,000"
+    },
+    {
+        "name": "Franky",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Shipwright",
+            "Bounty Hunter",
+            "Pirate",
+            "Officer"
+        ],
+        "age": "36",
+        "height": "225",
+        "bounty": "394,000,000"
+    },
+    {
+        "name": "Nico Robin",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Archaeologist",
+            "Pirate",
+            "Officer",
+            "Geisha",
+            "Assassin",
+            "Rain Dinners"
+        ],
+        "age": "30",
+        "height": "188",
+        "bounty": "930,000,000"
+    },
+    {
+        "name": "Jimbei",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Pirate",
+            "Helmsman",
+            "Officer",
+            "Captain",
+            "Warlord of the Sea",
+            "Soldier"
+        ],
+        "age": "46",
+        "height": "301",
+        "bounty": "1,100,000,000"
+    },
+    {
+        "name": "Brook",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Pirate",
+            "Musician",
+            "Swordsman",
+            "Officer",
+            "Captain"
+        ],
+        "age": "90",
+        "height": "266",
+        "bounty": "383,000,000"
+    },
+    {
+        "name": "Koby",
+        "affiliation": "Marines",
+        "occupations": [
+            "Marine Captain",
+            "Master Chief Petty Officer",
+            "Chore Boy",
+            "Pirate"
+        ],
+        "age": "18",
+        "height": "167",
+        "bounty": "null"
+    },
+    {
+        "name": "Shanks",
+        "affiliation": "Red Hair Pirates",
+        "occupations": [
+            "Chief",
+            "Emperor",
+            "Apprentice"
+        ],
+        "age": "39",
+        "height": "199",
+        "bounty": "4,048,900,000"
+    },
+    {
+        "name": "Gaimon",
+        "affiliation": "null",
+        "occupations": [
+            "Pirate"
+        ],
+        "age": "45",
+        "height": "130",
+        "bounty": "null"
+    },
+    {
+        "name": "Kaya",
+        "affiliation": "null",
+        "occupations": [],
+        "age": "19",
+        "height": "169",
+        "bounty": "null"
+    },
+    {
+        "name": "Johnny",
+        "affiliation": "Yosaku",
+        "occupations": [
+            "Bounty Hunter"
+        ],
+        "age": "25",
+        "height": "186",
+        "bounty": "null"
+    },
+    {
+        "name": "Zeff",
+        "affiliation": "Baratie",
+        "occupations": [
+            "Baratie",
+            "Pirate",
+            "Captain"
+        ],
+        "age": "67",
+        "height": "189",
+        "bounty": "Unknown"
+    },
+    {
+        "name": "Yosaku",
+        "affiliation": "Johnny",
+        "occupations": [
+            "Bounty Hunter"
+        ],
+        "age": "26",
+        "height": "185",
+        "bounty": "null"
+    },
+    {
+        "name": "Nojiko",
+        "affiliation": "null",
+        "occupations": [
+            "Orange Farmer"
+        ],
+        "age": "22",
+        "height": "170",
+        "bounty": "null"
+    },
+    {
+        "name": "Belle-Mère",
+        "affiliation": "Marines",
+        "occupations": [
+            "Marine",
+            "Officer"
+        ],
+        "age": "30",
+        "height": "186",
+        "bounty": "null"
+    },
+    {
+        "name": "Higuma",
+        "affiliation": "Higuma Bandits",
+        "occupations": [
+            "Bandit Leader"
+        ],
+        "age": "46",
+        "height": "190",
+        "bounty": "8,000,000"
+    },
+    {
+        "name": "Alvida",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate Captain"
+        ],
+        "age": "27",
+        "height": "198",
+        "bounty": "5,000,000"
+    },
+    {
+        "name": "Morgan",
+        "affiliation": "Marines",
+        "occupations": [
+            "Captain",
+            "Lieutenant Commander",
+            "Chief Petty Officer"
+        ],
+        "age": "44",
+        "height": "285",
+        "bounty": "null"
+    },
+    {
+        "name": "Helmeppo",
+        "affiliation": "Marines",
+        "occupations": [
+            "Lieutenant Commander",
+            "Chief Petty Officer",
+            "Chore Boy"
+        ],
+        "age": "22",
+        "height": "179",
+        "bounty": "null"
+    },
+    {
+        "name": "Kuro",
+        "affiliation": "Black Cat Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "35",
+        "height": "207",
+        "bounty": "16,000,000"
+    },
+    {
+        "name": "Buggy",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate Captain",
+            "Emperor",
+            "Warlord of the Sea",
+            "Apprentice"
+        ],
+        "age": "39",
+        "height": "192",
+        "bounty": "3,189,000,000"
+    },
+    {
+        "name": "Krieg",
+        "affiliation": "Krieg Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Admiral"
+        ],
+        "age": "44",
+        "height": "243",
+        "bounty": "17,000,000"
+    },
+    {
+        "name": "Gin",
+        "affiliation": "Krieg Pirates",
+        "occupations": [
+            "Pirate",
+            "Combat Commander"
+        ],
+        "age": "27",
+        "height": "186",
+        "bounty": "12,000,000"
+    },
+    {
+        "name": "Nefeltari Vivi",
+        "affiliation": "Arabasta Kingdom",
+        "occupations": [
+            "Princess",
+            "Pirate",
+            "Bounty Hunter",
+            "Frontier Agent"
+        ],
+        "age": "18",
+        "height": "169",
+        "bounty": "null"
+    },
+    {
+        "name": "Laboon",
+        "affiliation": "Rumbar Pirates",
+        "occupations": [],
+        "age": "53",
+        "height": "",
+        "bounty": "null"
+    },
+    {
+        "name": "Arlong",
+        "affiliation": "Arlong Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "41",
+        "height": "263",
+        "bounty": "20,000,000"
+    },
+    {
+        "name": "Dorry",
+        "affiliation": "Giant Warrior Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "60",
+        "height": "2260",
+        "bounty": ""
+    },
+    {
+        "name": "Karoo",
+        "affiliation": "Super Spot-Billed Duck Troops",
+        "occupations": [
+            "Pet",
+            "Pirate"
+        ],
+        "age": "16",
+        "height": "150",
+        "bounty": "null"
+    },
+    {
+        "name": "Broggy",
+        "affiliation": "Giant Warrior Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "60",
+        "height": "2130",
+        "bounty": ""
+    },
+    {
+        "name": "Dalton",
+        "affiliation": "Sakura Kingdom",
+        "occupations": [
+            "King",
+            "Sakura Kingdom",
+            "Drum Kingdom"
+        ],
+        "age": "35",
+        "height": "218",
+        "bounty": "null"
+    },
+    {
+        "name": "Kureha",
+        "affiliation": "Sakura Kingdom",
+        "occupations": [
+            "Doctor",
+            "Isshi-100"
+        ],
+        "age": "141",
+        "height": "188",
+        "bounty": "null"
+    },
+    {
+        "name": "Igaram",
+        "affiliation": "Arabasta",
+        "occupations": [
+            "Frontier Agent",
+            "Bounty Hunter",
+            "Whisky Peak"
+        ],
+        "age": "50",
+        "height": "218",
+        "bounty": "null"
+    },
+    {
+        "name": "Koza",
+        "affiliation": "Arabasta Kingdom",
+        "occupations": [
+            "Environmental Minister",
+            "Rebel Army leader"
+        ],
+        "age": "22",
+        "height": "177",
+        "bounty": "null"
+    },
+    {
+        "name": "Portgas D. Ace",
+        "affiliation": "Whitebeard Pirates",
+        "occupations": [
+            "Commander",
+            "Pirate",
+            "Captain",
+            "Bandit"
+        ],
+        "age": "20",
+        "height": "185",
+        "bounty": "550,000,000"
+    },
+    {
+        "name": "Nefeltari Cobra",
+        "affiliation": "Arabasta Kingdom",
+        "occupations": [
+            "King"
+        ],
+        "age": "50",
+        "height": "182",
+        "bounty": "null"
+    },
+    {
+        "name": "Wapol",
+        "affiliation": "Evil Black Drum Kingdom",
+        "occupations": [
+            "King",
+            "Drum Kingdom",
+            "Pirate",
+            "Captain"
+        ],
+        "age": "29",
+        "height": "207",
+        "bounty": "null"
+    },
+    {
+        "name": "Smoker",
+        "affiliation": "Marines",
+        "occupations": [
+            "Vice Admiral",
+            "Commodore",
+            "Captain"
+        ],
+        "age": "36",
+        "height": "209",
+        "bounty": "null"
+    },
+    {
+        "name": "Miss Valentine",
+        "affiliation": "New Spiders Cafe",
+        "occupations": [
+            "Cafe Pâtissier",
+            "Officer Agent"
+        ],
+        "age": "24",
+        "height": "177",
+        "bounty": "7,500,000"
+    },
+    {
+        "name": "Mr. 5",
+        "affiliation": "New Spiders Cafe",
+        "occupations": [
+            "Cafe Employee",
+            "Officer Agent",
+            "Sniper"
+        ],
+        "age": "26",
+        "height": "197",
+        "bounty": "10,000,000"
+    },
+    {
+        "name": "Miss Goldenweek",
+        "affiliation": "New Spiders Cafe",
+        "occupations": [
+            "Cafe Employee",
+            "Officer Agent"
+        ],
+        "age": "18",
+        "height": "145",
+        "bounty": "29,000,000"
+    },
+    {
+        "name": "Mr. 3",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate",
+            "Officer Agent"
+        ],
+        "age": "37",
+        "height": "179",
+        "bounty": "24,000,000"
+    },
+    {
+        "name": "Bentham",
+        "affiliation": "Newkama Land",
+        "occupations": [
+            "Newkama Land",
+            "Officer Agent"
+        ],
+        "age": "32",
+        "height": "238",
+        "bounty": "32,000,000"
+    },
+    {
+        "name": "Miss Doublefinger",
+        "affiliation": "New Spiders Cafe",
+        "occupations": [
+            "Spiders Cafe Owner",
+            "Assassin",
+            "Officer Agent"
+        ],
+        "age": "28",
+        "height": "187",
+        "bounty": "35,000,000"
+    },
+    {
+        "name": "Daz Bonez",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate",
+            "Assassin",
+            "Officer Agent",
+            "Bounty Hunter"
+        ],
+        "age": "31",
+        "height": "212",
+        "bounty": "75,000,000"
+    },
+    {
+        "name": "Mont Blanc Cricket",
+        "affiliation": "Saruyama Alliance",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "43",
+        "height": "242",
+        "bounty": "25,000,000"
+    },
+    {
+        "name": "Conis",
+        "affiliation": "Pumpkin Cafe",
+        "occupations": [],
+        "age": "21",
+        "height": "176",
+        "bounty": "null"
+    },
+    {
+        "name": "Crocodile",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate",
+            "Officer",
+            "Baroque Works",
+            "Rain Dinners"
+        ],
+        "age": "46",
+        "height": "253",
+        "bounty": "1,965,000,000"
+    },
+    {
+        "name": "Pagaya",
+        "affiliation": "null",
+        "occupations": [],
+        "age": "54",
+        "height": "179",
+        "bounty": "null"
+    },
+    {
+        "name": "Ganfor",
+        "affiliation": "Skypiea",
+        "occupations": [
+            "God",
+            "Mercenary"
+        ],
+        "age": "68",
+        "height": "180",
+        "bounty": "null"
+    },
+    {
+        "name": "Wyper",
+        "affiliation": "Shandia",
+        "occupations": [
+            "Shandia"
+        ],
+        "age": "24",
+        "height": "183",
+        "bounty": "null"
+    },
+    {
+        "name": "Aisa",
+        "affiliation": "Shandia",
+        "occupations": [],
+        "age": "11",
+        "height": "140",
+        "bounty": "null"
+    },
+    {
+        "name": "Kalgara",
+        "affiliation": "Shandia",
+        "occupations": [
+            "Warrior"
+        ],
+        "age": "39",
+        "height": "222",
+        "bounty": "null"
+    },
+    {
+        "name": "Mont Blanc Noland",
+        "affiliation": "Lvneel",
+        "occupations": [
+            "Explorer",
+            "Admiral"
+        ],
+        "age": "39",
+        "height": "220",
+        "bounty": "null"
+    },
+    {
+        "name": "Eneru",
+        "affiliation": "God's Army",
+        "occupations": [
+            "God",
+            "Skypiea"
+        ],
+        "age": "39",
+        "height": "266",
+        "bounty": "null"
+    },
+    {
+        "name": "Bellamy",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "27",
+        "height": "240",
+        "bounty": "195,000,000"
+    },
+    {
+        "name": "Satori",
+        "affiliation": "God's Army",
+        "occupations": [
+            "Priest",
+            "Enel"
+        ],
+        "age": "27",
+        "height": "179",
+        "bounty": "null"
+    },
+    {
+        "name": "Shura",
+        "affiliation": "God's Army",
+        "occupations": [
+            "Priest",
+            "Enel"
+        ],
+        "age": "33",
+        "height": "191",
+        "bounty": "null"
+    },
+    {
+        "name": "Ohm",
+        "affiliation": "God's Army",
+        "occupations": [
+            "Priest",
+            "Enel"
+        ],
+        "age": "29",
+        "height": "189",
+        "bounty": "null"
+    },
+    {
+        "name": "Gedatsu",
+        "affiliation": "Ukkari Hot-Spring Island",
+        "occupations": [
+            "Priest",
+            "Enel",
+            "Hot Springs Resort"
+        ],
+        "age": "31",
+        "height": "220",
+        "bounty": "null"
+    },
+    {
+        "name": "Paulie",
+        "affiliation": "Galley-La Company",
+        "occupations": [],
+        "age": "26",
+        "height": "195",
+        "bounty": "null"
+    },
+    {
+        "name": "Iceberg",
+        "affiliation": "Galley-La Company",
+        "occupations": [
+            "Galley-La Company",
+            "Water 7"
+        ],
+        "age": "40",
+        "height": "199",
+        "bounty": "null"
+    },
+    {
+        "name": "Rob Lucci",
+        "affiliation": "CP0",
+        "occupations": [
+            "Cipher Pol",
+            "Shipwright"
+        ],
+        "age": "30",
+        "height": "212",
+        "bounty": "null"
+    },
+    {
+        "name": "Fukurô",
+        "affiliation": "CP9",
+        "occupations": [
+            "Cipher Pol"
+        ],
+        "age": "31",
+        "height": "331",
+        "bounty": "null"
+    },
+    {
+        "name": "Kumadori",
+        "affiliation": "CP9",
+        "occupations": [
+            "Cipher Pol"
+        ],
+        "age": "36",
+        "height": "338",
+        "bounty": "null"
+    },
+    {
+        "name": "Kuzan",
+        "affiliation": "Blackbeard Pirates",
+        "occupations": [
+            "Pirate",
+            "Admiral",
+            "Vice Admiral"
+        ],
+        "age": "49",
+        "height": "298",
+        "bounty": "null"
+    },
+    {
+        "name": "Spandam",
+        "affiliation": "CP0",
+        "occupations": [
+            "CP0"
+        ],
+        "age": "41",
+        "height": "192",
+        "bounty": "null"
+    },
+    {
+        "name": "Foxy",
+        "affiliation": "Foxy Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "38",
+        "height": "180",
+        "bounty": "24,000,000"
+    },
+    {
+        "name": "Charlotte Lola",
+        "affiliation": "Rolling Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Minister"
+        ],
+        "age": "26",
+        "height": "215",
+        "bounty": "24,000,000"
+    },
+    {
+        "name": "Gecko Moria",
+        "affiliation": "Thriller Bark Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Warlord of the Sea"
+        ],
+        "age": "50",
+        "height": "692",
+        "bounty": "320,000,000"
+    },
+    {
+        "name": "Absalom",
+        "affiliation": "Thriller Bark Pirates",
+        "occupations": [
+            "Soldier Zombie",
+            "General Zombie"
+        ],
+        "age": "36",
+        "height": "195",
+        "bounty": "null"
+    },
+    {
+        "name": "Perona",
+        "affiliation": "Dracule Mihawk",
+        "occupations": [
+            "Pirate",
+            "Wild Zombies",
+            "Surprise Zombies"
+        ],
+        "age": "25",
+        "height": "160",
+        "bounty": "null"
+    },
+    {
+        "name": "Oars",
+        "affiliation": "Thriller Bark Pirates",
+        "occupations": [
+            "Special Zombie"
+        ],
+        "age": "159",
+        "height": "",
+        "bounty": "null"
+    },
+    {
+        "name": "Shimotsuki Ryuma",
+        "affiliation": "Thriller Bark Pirates",
+        "occupations": [
+            "General Zombie",
+            "Samurai"
+        ],
+        "age": "47",
+        "height": "179",
+        "bounty": "null"
+    },
+    {
+        "name": "Bartholomew Kuma",
+        "affiliation": "Seven Warlords of the Sea",
+        "occupations": [
+            "Pirate",
+            "Slave",
+            "Warlord of the Sea",
+            "King"
+        ],
+        "age": "47",
+        "height": "689",
+        "bounty": "At least 296,000,000"
+    },
+    {
+        "name": "Pappagu",
+        "affiliation": "Takoyaki 8",
+        "occupations": [],
+        "age": "33",
+        "height": "50",
+        "bounty": "null"
+    },
+    {
+        "name": "Camie",
+        "affiliation": "Takoyaki 8",
+        "occupations": [],
+        "age": "18",
+        "height": "197",
+        "bounty": "null"
+    },
+    {
+        "name": "Hatchan",
+        "affiliation": "Takoyaki 8",
+        "occupations": [
+            "Pirate"
+        ],
+        "age": "38",
+        "height": "220",
+        "bounty": "8,000,000"
+    },
+    {
+        "name": "Silvers Rayleigh",
+        "affiliation": "Roger Pirates",
+        "occupations": [
+            "Coating Mechanic",
+            "First Mate",
+            "Pirate"
+        ],
+        "age": "78",
+        "height": "188",
+        "bounty": "Unknown"
+    },
+    {
+        "name": "Boa Hancock",
+        "affiliation": "Kuja",
+        "occupations": [
+            "Pirate Captain",
+            "Amazon Lily",
+            "Warlord of the Sea"
+        ],
+        "age": "31",
+        "height": "191",
+        "bounty": "1,659,000,000"
+    },
+    {
+        "name": "Emporio Ivankov",
+        "affiliation": "Revolutionary Army",
+        "occupations": [
+            "Queen"
+        ],
+        "age": "53",
+        "height": "449",
+        "bounty": "At least 100,000,000"
+    },
+    {
+        "name": "Edward Newgate",
+        "affiliation": "Whitebeard Pirates",
+        "occupations": [
+            "Pirate Captain",
+            "Emperor"
+        ],
+        "age": "72",
+        "height": "666",
+        "bounty": "5,046,000,000"
+    },
+    {
+        "name": "Marco",
+        "affiliation": "Whitebeard Pirates",
+        "occupations": [
+            "Pirate",
+            "Commander",
+            "Doctor",
+            "Apprentice"
+        ],
+        "age": "45",
+        "height": "203",
+        "bounty": "1,374,000,000"
+    },
+    {
+        "name": "Saint Charlos",
+        "affiliation": "World Government",
+        "occupations": [
+            "World Noble"
+        ],
+        "age": "24",
+        "height": "230",
+        "bounty": "null"
+    },
+    {
+        "name": "Duval",
+        "affiliation": "Rosy Life Riders",
+        "occupations": [
+            "Leader of the Rosy Life Riders",
+            "Pirate"
+        ],
+        "age": "25",
+        "height": "470",
+        "bounty": "null"
+    },
+    {
+        "name": "Magellan",
+        "affiliation": "Impel Down",
+        "occupations": [
+            "Vice Warden"
+        ],
+        "age": "47",
+        "height": "491",
+        "bounty": "null"
+    },
+    {
+        "name": "Marshall D. Teech",
+        "affiliation": "Blackbeard Pirates",
+        "occupations": [
+            "Pirate",
+            "Admiral",
+            "Emperor",
+            "Apprentice",
+            "Warlord of the Sea"
+        ],
+        "age": "40",
+        "height": "344",
+        "bounty": "3,996,000,000"
+    },
+    {
+        "name": "Hannyabal",
+        "affiliation": "Impel Down",
+        "occupations": [],
+        "age": "35",
+        "height": "309",
+        "bounty": "null"
+    },
+    {
+        "name": "Sakazuki",
+        "affiliation": "Marines",
+        "occupations": [
+            "Fleet Admiral",
+            "Admiral",
+            "Vice Admiral"
+        ],
+        "age": "55",
+        "height": "306",
+        "bounty": "null"
+    },
+    {
+        "name": "Kuzan",
+        "affiliation": "Blackbeard Pirates",
+        "occupations": [
+            "Pirate",
+            "Admiral",
+            "Vice Admiral"
+        ],
+        "age": "49",
+        "height": "298",
+        "bounty": "null"
+    },
+    {
+        "name": "Sentomaru",
+        "affiliation": "Marines",
+        "occupations": [
+            "Marine",
+            "Officer",
+            "Dr. Vegapunk"
+        ],
+        "age": "34",
+        "height": "279",
+        "bounty": "null"
+    },
+    {
+        "name": "Borsalino",
+        "affiliation": "Marines",
+        "occupations": [
+            "Admiral",
+            "Vice Admiral"
+        ],
+        "age": "58",
+        "height": "302",
+        "bounty": "null"
+    },
+    {
+        "name": "Donquixote Doflamingo",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate Captain",
+            "Broker",
+            "King",
+            "World Noble"
+        ],
+        "age": "41",
+        "height": "305",
+        "bounty": "340,000,000"
+    },
+    {
+        "name": "Dracule Mihawk",
+        "affiliation": "Cross Guild",
+        "occupations": [
+            "Pirate",
+            "Officer",
+            "Warlord of the Sea"
+        ],
+        "age": "43",
+        "height": "198",
+        "bounty": "3,590,000,000"
+    },
+    {
+        "name": "Momonga",
+        "affiliation": "Marines",
+        "occupations": [
+            "Vice Admiral"
+        ],
+        "age": "48",
+        "height": "251",
+        "bounty": "null"
+    },
+    {
+        "name": "Neptune",
+        "affiliation": "Neptune Family",
+        "occupations": [
+            "King"
+        ],
+        "age": "70",
+        "height": "1220",
+        "bounty": "null"
+    },
+    {
+        "name": "Shirahoshi",
+        "affiliation": "Neptune Family",
+        "occupations": [
+            "Princess",
+            "Ryugu Kingdom"
+        ],
+        "age": "16",
+        "height": "1187",
+        "bounty": "null"
+    },
+    {
+        "name": "Sharley",
+        "affiliation": "Mermaid Cafe",
+        "occupations": [],
+        "age": "29",
+        "height": "520",
+        "bounty": "null"
+    },
+    {
+        "name": "Trafalgar D. Water Law",
+        "affiliation": "Heart Pirates",
+        "occupations": [
+            "Pirate Captain",
+            "Doctor"
+        ],
+        "age": "26",
+        "height": "191",
+        "bounty": "3,000,000,000"
+    },
+    {
+        "name": "Kin'emon",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Samurai"
+        ],
+        "age": "56",
+        "height": "295",
+        "bounty": "null"
+    },
+    {
+        "name": "Kurozumi Kanjuro",
+        "affiliation": "Kurozumi Family",
+        "occupations": [
+            "Samurai"
+        ],
+        "age": "54",
+        "height": "347",
+        "bounty": "null"
+    },
+    {
+        "name": "Kozuki Momonosuke",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Shogun"
+        ],
+        "age": "28",
+        "height": "110",
+        "bounty": "null"
+    },
+    {
+        "name": "Browndros Beardriquez",
+        "affiliation": "Caesar Clown",
+        "occupations": [
+            "Centaur Patrol Unit",
+            "Pirate",
+            "Captain"
+        ],
+        "age": "45",
+        "height": "691",
+        "bounty": "80,060,000"
+    },
+    {
+        "name": "Bartolomeo",
+        "affiliation": "Barto Club",
+        "occupations": [
+            "Straw Hat Grand Fleet",
+            "Pirate Captain"
+        ],
+        "age": "24",
+        "height": "220",
+        "bounty": "200,000,000"
+    },
+    {
+        "name": "Cavendish",
+        "affiliation": "Beautiful Pirates",
+        "occupations": [
+            "Straw Hat Grand Fleet",
+            "Captain",
+            "Prince"
+        ],
+        "age": "26",
+        "height": "208",
+        "bounty": "330,000,000"
+    },
+    {
+        "name": "Rebecca",
+        "affiliation": "Dressrosa",
+        "occupations": [
+            "Princess"
+        ],
+        "age": "16",
+        "height": "171",
+        "bounty": "null"
+    },
+    {
+        "name": "Kyros",
+        "affiliation": "Corrida Colosseum",
+        "occupations": [],
+        "age": "44",
+        "height": "298",
+        "bounty": "Unknown"
+    },
+    {
+        "name": "Riku Doldo III",
+        "affiliation": "Riku Family",
+        "occupations": [
+            "King",
+            "Corrida Colosseum"
+        ],
+        "age": "60",
+        "height": "261",
+        "bounty": "null"
+    },
+    {
+        "name": "Caribou",
+        "affiliation": "Caribou Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Kidnapper"
+        ],
+        "age": "32",
+        "height": "228",
+        "bounty": "210,000,000"
+    },
+    {
+        "name": "Sabo",
+        "affiliation": "Revolutionary Army",
+        "occupations": [
+            "Staff",
+            "Noble",
+            "Bandit"
+        ],
+        "age": "10",
+        "height": "cm (3'3½”) (Flashback, debut)[4]",
+        "bounty": "602,000,000"
+    },
+    {
+        "name": "Vander Decken IX",
+        "affiliation": "Flying Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "35",
+        "height": "352",
+        "bounty": "Unknown"
+    },
+    {
+        "name": "Hody Jones",
+        "affiliation": "New Fish-Man Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Soldier"
+        ],
+        "age": "30>",
+        "height": "331",
+        "bounty": "null"
+    },
+    {
+        "name": "Hyouzou",
+        "affiliation": "New Fish-Man Pirates",
+        "occupations": [
+            "Mercenary",
+            "Pirate",
+            "Assassin",
+            "Pirate Officer",
+            "Swordsman"
+        ],
+        "age": "39",
+        "height": "327",
+        "bounty": "null"
+    },
+    {
+        "name": "Monet",
+        "affiliation": "Caesar Clown",
+        "occupations": [
+            "Pirate"
+        ],
+        "age": "30",
+        "height": "227",
+        "bounty": "null"
+    },
+    {
+        "name": "Caesar Clown",
+        "affiliation": "Fire Tank Pirates",
+        "occupations": [
+            "Scientist"
+        ],
+        "age": "40",
+        "height": "309",
+        "bounty": "300,000,000"
+    },
+    {
+        "name": "Trebol",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Staff",
+            "Sugar"
+        ],
+        "age": "49",
+        "height": "349",
+        "bounty": "99,000,000"
+    },
+    {
+        "name": "Vergo",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Vice Admiral",
+            "G-5",
+            "Marine Captain"
+        ],
+        "age": "41",
+        "height": "247",
+        "bounty": "null"
+    },
+    {
+        "name": "Diamante",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Swordsman"
+        ],
+        "age": "45",
+        "height": "525",
+        "bounty": "99,000,000"
+    },
+    {
+        "name": "Señor Pink",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Assassin"
+        ],
+        "age": "46",
+        "height": "244",
+        "bounty": "58,000,000"
+    },
+    {
+        "name": "Pica",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate"
+        ],
+        "age": "40",
+        "height": "470",
+        "bounty": "99,000,000"
+    },
+    {
+        "name": "Buffalo",
+        "affiliation": "Donquixote Pirates",
+        "occupations": [
+            "Pirate",
+            "Assassin"
+        ],
+        "age": "30",
+        "height": "696",
+        "bounty": "null"
+    },
+    {
+        "name": "Baby 5",
+        "affiliation": "Happo Navy",
+        "occupations": [
+            "Pirate",
+            "Officer",
+            "Assassin"
+        ],
+        "age": "24",
+        "height": "181",
+        "bounty": "null"
+    },
+    {
+        "name": "Issho",
+        "affiliation": "Marines",
+        "occupations": [
+            "Admiral"
+        ],
+        "age": "54",
+        "height": "270",
+        "bounty": "null"
+    },
+    {
+        "name": "Raizo",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Ninja",
+            "Samurai"
+        ],
+        "age": "55",
+        "height": "311",
+        "bounty": "null"
+    },
+    {
+        "name": "Pedro",
+        "affiliation": "Mokomo Dukedom",
+        "occupations": [
+            "Pirate",
+            "Captain"
+        ],
+        "age": "32",
+        "height": "233",
+        "bounty": "382,000,000"
+    },
+    {
+        "name": "Carrot",
+        "affiliation": "Mokomo Dukedom",
+        "occupations": [
+            "Kingsbird"
+        ],
+        "age": "15",
+        "height": "161",
+        "bounty": "null"
+    },
+    {
+        "name": "Wanda",
+        "affiliation": "Mokomo Dukedom",
+        "occupations": [],
+        "age": "28",
+        "height": "181",
+        "bounty": "null"
+    },
+    {
+        "name": "Cat Viper",
+        "affiliation": "Mokomo Dukedom",
+        "occupations": [
+            "Samurai",
+            "Pirate Apprentice"
+        ],
+        "age": "40",
+        "height": "522",
+        "bounty": "null"
+    },
+    {
+        "name": "Dogstorm",
+        "affiliation": "Mokomo Dukedom",
+        "occupations": [
+            "Samurai",
+            "Pirate Apprentice"
+        ],
+        "age": "40",
+        "height": "511",
+        "bounty": "null"
+    },
+    {
+        "name": "Zunesha",
+        "affiliation": "null",
+        "occupations": [],
+        "age": "1000+",
+        "height": "",
+        "bounty": "null"
+    },
+    {
+        "name": "Pekoms",
+        "affiliation": "Big Mom Pirates",
+        "occupations": [
+            "Combatant",
+            "Broker"
+        ],
+        "age": "27",
+        "height": "232",
+        "bounty": "330,000,000"
+    },
+    {
+        "name": "Capone Bege",
+        "affiliation": "Fire Tank Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Combatant"
+        ],
+        "age": "42",
+        "height": "166",
+        "bounty": "350,000,000"
+    },
+    {
+        "name": "Kaido",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Pirate",
+            "Governor-General",
+            "Emperor",
+            "Apprentice"
+        ],
+        "age": "59",
+        "height": "710",
+        "bounty": "4,611,100,000"
+    },
+    {
+        "name": "Jack",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "All-Star",
+            "Mammoth"
+        ],
+        "age": "28",
+        "height": "830",
+        "bounty": "1,000,000,000"
+    },
+    {
+        "name": "Charlotte Linlin",
+        "affiliation": "Big Mom Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Emperor",
+            "Queen",
+            "Totto Land"
+        ],
+        "age": "68",
+        "height": "880",
+        "bounty": "4,388,000,000"
+    },
+    {
+        "name": "Vinsmoke Judge",
+        "affiliation": "Vinsmoke Family",
+        "occupations": [
+            "King",
+            "Supreme Commander",
+            "Scientist",
+            "Mercenary"
+        ],
+        "age": "56",
+        "height": "272",
+        "bounty": "null"
+    },
+    {
+        "name": "Charlotte Katakuri",
+        "affiliation": "Charlotte Family",
+        "occupations": [
+            "Sweet Commander",
+            "Minister"
+        ],
+        "age": "48",
+        "height": "509",
+        "bounty": "1,057,000,000"
+    },
+    {
+        "name": "Charlotte Pudding",
+        "affiliation": "Charlotte Family",
+        "occupations": [
+            "Pirate",
+            "Officer"
+        ],
+        "age": "16",
+        "height": "166",
+        "bounty": "null"
+    },
+    {
+        "name": "Charlotte Cracker",
+        "affiliation": "Charlotte Family",
+        "occupations": [
+            "Sweet Commander",
+            "Minister"
+        ],
+        "age": "45",
+        "height": "307",
+        "bounty": "860,000,000"
+    },
+    {
+        "name": "Charlotte Smoothie",
+        "affiliation": "Charlotte Family",
+        "occupations": [
+            "Sweet Commander",
+            "Minister"
+        ],
+        "age": "35",
+        "height": "464",
+        "bounty": "932,000,000"
+    },
+    {
+        "name": "Kozuki Oden",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Samurai",
+            "Daimyo",
+            "Pirate",
+            "Commander"
+        ],
+        "age": "39",
+        "height": "382",
+        "bounty": "Unknown"
+    },
+    {
+        "name": "Charlotte Perospero",
+        "affiliation": "Charlotte Family",
+        "occupations": [
+            "Pirate",
+            "Officer",
+            "Minister"
+        ],
+        "age": "50",
+        "height": "333",
+        "bounty": "700,000,000"
+    },
+    {
+        "name": "Kozuki Hiyori",
+        "affiliation": "Kozuki Family",
+        "occupations": [],
+        "age": "26",
+        "height": "170",
+        "bounty": "null"
+    },
+    {
+        "name": "Kikunojo",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Samurai"
+        ],
+        "age": "42",
+        "height": "287",
+        "bounty": "null"
+    },
+    {
+        "name": "Denjiro",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Samurai"
+        ],
+        "age": "47",
+        "height": "306",
+        "bounty": "null"
+    },
+    {
+        "name": "Ashura Doji",
+        "affiliation": "Mt. Atama Thieves",
+        "occupations": [
+            "Bandit",
+            "Samurai"
+        ],
+        "age": "56",
+        "height": "544",
+        "bounty": "null"
+    },
+    {
+        "name": "Kawamatsu",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Samurai"
+        ],
+        "age": "41",
+        "height": "271",
+        "bounty": "null"
+    },
+    {
+        "name": "Shinobu",
+        "affiliation": "Kozuki Family",
+        "occupations": [
+            "Kunoichi",
+            "Kozuki Family"
+        ],
+        "age": "49",
+        "height": "180",
+        "bounty": "null"
+    },
+    {
+        "name": "Hyogoro",
+        "affiliation": "null",
+        "occupations": [
+            "Yakuza",
+            "Samurai"
+        ],
+        "age": "70",
+        "height": "100",
+        "bounty": "null"
+    },
+    {
+        "name": "Shimotsuki Yasuie",
+        "affiliation": "null",
+        "occupations": [],
+        "age": "71",
+        "height": "155",
+        "bounty": "null"
+    },
+    {
+        "name": "Yamato",
+        "affiliation": "Ninja-Pirate-Mink-Samurai Alliance",
+        "occupations": [],
+        "age": "28",
+        "height": "263",
+        "bounty": "null"
+    },
+    {
+        "name": "Queen",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "All-Star"
+        ],
+        "age": "56",
+        "height": "612",
+        "bounty": "1,320,000,000"
+    },
+    {
+        "name": "Who's-Who",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Shinuchi",
+            "Pirate",
+            "Captain",
+            "Cipher Pol"
+        ],
+        "age": "38",
+        "height": "336",
+        "bounty": "546,000,000"
+    },
+    {
+        "name": "King",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "All-Star"
+        ],
+        "age": "47",
+        "height": "613",
+        "bounty": "1,390,000,000"
+    },
+    {
+        "name": "Black Maria",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Shinuchi"
+        ],
+        "age": "29",
+        "height": "820",
+        "bounty": "480,000,000"
+    },
+    {
+        "name": "Sasaki",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Shinuchi",
+            "Pirate",
+            "Captain"
+        ],
+        "age": "34",
+        "height": "318",
+        "bounty": "472,000,000"
+    },
+    {
+        "name": "Page One",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Shinuchi"
+        ],
+        "age": "20",
+        "height": "171",
+        "bounty": "290,000,000"
+    },
+    {
+        "name": "Ulti",
+        "affiliation": "Beasts Pirates",
+        "occupations": [
+            "Shinuchi"
+        ],
+        "age": "22",
+        "height": "173",
+        "bounty": "400,000,000"
+    },
+    {
+        "name": "Scratchmen Apoo",
+        "affiliation": "On Air Pirates",
+        "occupations": [
+            "Pirate",
+            "Captain",
+            "Musician"
+        ],
+        "age": "31",
+        "height": "256",
+        "bounty": "350,000,000"
+    },
+    {
+        "name": "Surume",
+        "affiliation": "Straw Hat Pirates",
+        "occupations": [
+            "Pet"
+        ],
+        "age": "120",
+        "height": "300 m",
+        "bounty": "null"
+    },
+    {
+        "name": "Hogback",
+        "affiliation": "Thriller Bark Pirates",
+        "occupations": [
+            "Doctor"
+        ],
+        "age": "47",
+        "height": "223",
+        "bounty": "null"
+    },
+    {
+        "name": "Kalifa",
+        "affiliation": "CP0",
+        "occupations": [
+            "Cipher Pol",
+            "Secretary"
+        ],
+        "age": "27",
+        "height": "185",
+        "bounty": "null"
+    },
+    {
+        "name": "Blueno",
+        "affiliation": "CP0",
+        "occupations": [
+            "Cipher Pol"
+        ],
+        "age": "32",
+        "height": "258",
+        "bounty": "null"
+    },
+    {
+        "name": "Jabra",
+        "affiliation": "CP9",
+        "occupations": [
+            "Cipher Pol"
+        ],
+        "age": "37",
+        "height": "212",
+        "bounty": "null"
+    },
+    {
+        "name": "Kaku",
+        "affiliation": "CP0",
+        "occupations": [
+            "Cipher Pol",
+            "Shipwright"
+        ],
+        "age": "25",
+        "height": "193",
+        "bounty": "null"
+    },
+    {
+        "name": "Kokoro",
+        "affiliation": "Tom's Workers",
+        "occupations": [
+            "Stationmaster"
+        ],
+        "age": "72",
+        "height": "168",
+        "bounty": "null"
+    }
+]

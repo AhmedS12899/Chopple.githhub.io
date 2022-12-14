@@ -1,0 +1,694 @@
+[
+    {
+        "name": "Monkey D. Luffy",
+        "link": "https://onepiece.fandom.com/wiki/Monkey_D._Luffy"
+    },
+    {
+        "name": "Roronoa Zoro",
+        "link": "https://onepiece.fandom.com/wiki/Roronoa_Zoro"
+    },
+    {
+        "name": "Nami",
+        "link": "https://onepiece.fandom.com/wiki/Nami"
+    },
+    {
+        "name": "Usopp",
+        "link": "https://onepiece.fandom.com/wiki/Usopp"
+    },
+    {
+        "name": "Sanji",
+        "link": "https://onepiece.fandom.com/wiki/Sanji"
+    },
+    {
+        "name": "Tony Tony Chopper",
+        "link": "https://onepiece.fandom.com/wiki/Tony_Tony_Chopper"
+    },
+    {
+        "name": "Nico Robin",
+        "link": "https://onepiece.fandom.com/wiki/Nico_Robin"
+    },
+    {
+        "name": "Franky",
+        "link": "https://onepiece.fandom.com/wiki/Franky"
+    },
+    {
+        "name": "Brook",
+        "link": "https://onepiece.fandom.com/wiki/Brook"
+    },
+    {
+        "name": "Jinbe",
+        "link": "https://onepiece.fandom.com/wiki/Jinbe"
+    },
+    {
+        "name": "Shanks",
+        "link": "https://onepiece.fandom.com/wiki/Shanks"
+    },
+    {
+        "name": "Koby",
+        "link": "https://onepiece.fandom.com/wiki/Koby"
+    },
+    {
+        "name": "Gaimon",
+        "link": "https://onepiece.fandom.com/wiki/Gaimon"
+    },
+    {
+        "name": "Kaya",
+        "link": "https://onepiece.fandom.com/wiki/Kaya"
+    },
+    {
+        "name": "Johnny",
+        "link": "https://onepiece.fandom.com/wiki/Johnny"
+    },
+    {
+        "name": "Yosaku",
+        "link": "https://onepiece.fandom.com/wiki/Yosaku"
+    },
+    {
+        "name": "Zeff",
+        "link": "https://onepiece.fandom.com/wiki/Zeff"
+    },
+    {
+        "name": "Nojiko",
+        "link": "https://onepiece.fandom.com/wiki/Nojiko"
+    },
+    {
+        "name": "Bell-mère",
+        "link": "https://onepiece.fandom.com/wiki/Bell-m%C3%A8re"
+    },
+    {
+        "name": "Higuma",
+        "link": "https://onepiece.fandom.com/wiki/Higuma"
+    },
+    {
+        "name": "Alvida",
+        "link": "https://onepiece.fandom.com/wiki/Alvida"
+    },
+    {
+        "name": "Morgan",
+        "link": "https://onepiece.fandom.com/wiki/Morgan"
+    },
+    {
+        "name": "Helmeppo",
+        "link": "https://onepiece.fandom.com/wiki/Helmeppo"
+    },
+    {
+        "name": "Buggy",
+        "link": "https://onepiece.fandom.com/wiki/Buggy"
+    },
+    {
+        "name": "Kuro",
+        "link": "https://onepiece.fandom.com/wiki/Kuro"
+    },
+    {
+        "name": "Krieg",
+        "link": "https://onepiece.fandom.com/wiki/Krieg"
+    },
+    {
+        "name": "Gin",
+        "link": "https://onepiece.fandom.com/wiki/Gin"
+    },
+    {
+        "name": "Arlong",
+        "link": "https://onepiece.fandom.com/wiki/Arlong"
+    },
+    {
+        "name": "Nefertari Vivi",
+        "link": "https://onepiece.fandom.com/wiki/Nefertari_Vivi"
+    },
+    {
+        "name": "Laboon",
+        "link": "https://onepiece.fandom.com/wiki/Laboon"
+    },
+    {
+        "name": "Karoo",
+        "link": "https://onepiece.fandom.com/wiki/Karoo"
+    },
+    {
+        "name": "Dorry",
+        "link": "https://onepiece.fandom.com/wiki/Dorry"
+    },
+    {
+        "name": "Brogy",
+        "link": "https://onepiece.fandom.com/wiki/Brogy"
+    },
+    {
+        "name": "Dalton",
+        "link": "https://onepiece.fandom.com/wiki/Dalton"
+    },
+    {
+        "name": "Kureha",
+        "link": "https://onepiece.fandom.com/wiki/Kureha"
+    },
+    {
+        "name": "Portgas D. Ace",
+        "link": "https://onepiece.fandom.com/wiki/Portgas_D._Ace"
+    },
+    {
+        "name": "Igaram",
+        "link": "https://onepiece.fandom.com/wiki/Igaram"
+    },
+    {
+        "name": "Kohza",
+        "link": "https://onepiece.fandom.com/wiki/Kohza"
+    },
+    {
+        "name": "Nefertari Cobra",
+        "link": "https://onepiece.fandom.com/wiki/Nefertari_Cobra"
+    },
+    {
+        "name": "Smoker",
+        "link": "https://onepiece.fandom.com/wiki/Smoker"
+    },
+    {
+        "name": "Wapol",
+        "link": "https://onepiece.fandom.com/wiki/Wapol"
+    },
+    {
+        "name": "Mikita",
+        "link": "https://onepiece.fandom.com/wiki/Mikita"
+    },
+    {
+        "name": "Gem",
+        "link": "https://onepiece.fandom.com/wiki/Gem"
+    },
+    {
+        "name": "Marianne",
+        "link": "https://onepiece.fandom.com/wiki/Marianne"
+    },
+    {
+        "name": "Galdino",
+        "link": "https://onepiece.fandom.com/wiki/Galdino"
+    },
+    {
+        "name": "Bentham",
+        "link": "https://onepiece.fandom.com/wiki/Bentham"
+    },
+    {
+        "name": "Zala",
+        "link": "https://onepiece.fandom.com/wiki/Zala"
+    },
+    {
+        "name": "Daz Bonez",
+        "link": "https://onepiece.fandom.com/wiki/Daz_Bonez"
+    },
+    {
+        "name": "Crocodile",
+        "link": "https://onepiece.fandom.com/wiki/Crocodile"
+    },
+    {
+        "name": "Mont Blanc Cricket",
+        "link": "https://onepiece.fandom.com/wiki/Mont_Blanc_Cricket"
+    },
+    {
+        "name": "Conis",
+        "link": "https://onepiece.fandom.com/wiki/Conis"
+    },
+    {
+        "name": "Pagaya",
+        "link": "https://onepiece.fandom.com/wiki/Pagaya"
+    },
+    {
+        "name": "Wyper",
+        "link": "https://onepiece.fandom.com/wiki/Wyper"
+    },
+    {
+        "name": "Gan Fall",
+        "link": "https://onepiece.fandom.com/wiki/Gan_Fall"
+    },
+    {
+        "name": "Aisa",
+        "link": "https://onepiece.fandom.com/wiki/Aisa"
+    },
+    {
+        "name": "Montblanc Noland",
+        "link": "https://onepiece.fandom.com/wiki/Montblanc_Noland"
+    },
+    {
+        "name": "Kalgara",
+        "link": "https://onepiece.fandom.com/wiki/Kalgara"
+    },
+    {
+        "name": "Bellamy",
+        "link": "https://onepiece.fandom.com/wiki/Bellamy"
+    },
+    {
+        "name": "Enel",
+        "link": "https://onepiece.fandom.com/wiki/Enel"
+    },
+    {
+        "name": "Satori",
+        "link": "https://onepiece.fandom.com/wiki/Satori"
+    },
+    {
+        "name": "Shura",
+        "link": "https://onepiece.fandom.com/wiki/Shura"
+    },
+    {
+        "name": "Gedatsu",
+        "link": "https://onepiece.fandom.com/wiki/Gedatsu"
+    },
+    {
+        "name": "Ohm",
+        "link": "https://onepiece.fandom.com/wiki/Ohm"
+    },
+    {
+        "name": "Iceburg",
+        "link": "https://onepiece.fandom.com/wiki/Iceburg"
+    },
+    {
+        "name": "Paulie",
+        "link": "https://onepiece.fandom.com/wiki/Paulie"
+    },
+    {
+        "name": "Kokoro",
+        "link": "https://onepiece.fandom.com/wiki/Kokoro"
+    },
+    {
+        "name": "Galley-La Company",
+        "link": "https://onepiece.fandom.com/wiki/Galley-La_Company"
+    },
+    {
+        "name": "Franky Family",
+        "link": "https://onepiece.fandom.com/wiki/Franky_Family"
+    },
+    {
+        "name": "Rob Lucci",
+        "link": "https://onepiece.fandom.com/wiki/Rob_Lucci"
+    },
+    {
+        "name": "Kaku",
+        "link": "https://onepiece.fandom.com/wiki/Kaku"
+    },
+    {
+        "name": "Jabra",
+        "link": "https://onepiece.fandom.com/wiki/Jabra"
+    },
+    {
+        "name": "Blueno",
+        "link": "https://onepiece.fandom.com/wiki/Blueno"
+    },
+    {
+        "name": "Kalifa",
+        "link": "https://onepiece.fandom.com/wiki/Kalifa"
+    },
+    {
+        "name": "Fukurou",
+        "link": "https://onepiece.fandom.com/wiki/Fukurou"
+    },
+    {
+        "name": "Kumadori",
+        "link": "https://onepiece.fandom.com/wiki/Kumadori"
+    },
+    {
+        "name": "Spandam",
+        "link": "https://onepiece.fandom.com/wiki/Spandam"
+    },
+    {
+        "name": "Kuzan",
+        "link": "https://onepiece.fandom.com/wiki/Kuzan"
+    },
+    {
+        "name": "Foxy",
+        "link": "https://onepiece.fandom.com/wiki/Foxy"
+    },
+    {
+        "name": "Charlotte Lola",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Lola"
+    },
+    {
+        "name": "Gekko Moriah",
+        "link": "https://onepiece.fandom.com/wiki/Gekko_Moriah"
+    },
+    {
+        "name": "Hogback",
+        "link": "https://onepiece.fandom.com/wiki/Hogback"
+    },
+    {
+        "name": "Absalom",
+        "link": "https://onepiece.fandom.com/wiki/Absalom"
+    },
+    {
+        "name": "Perona",
+        "link": "https://onepiece.fandom.com/wiki/Perona"
+    },
+    {
+        "name": "Oars",
+        "link": "https://onepiece.fandom.com/wiki/Oars"
+    },
+    {
+        "name": "Ryuma",
+        "link": "https://onepiece.fandom.com/wiki/Ryuma"
+    },
+    {
+        "name": "Bartholomew Kuma",
+        "link": "https://onepiece.fandom.com/wiki/Bartholomew_Kuma"
+    },
+    {
+        "name": "Keimi",
+        "link": "https://onepiece.fandom.com/wiki/Keimi"
+    },
+    {
+        "name": "Pappug",
+        "link": "https://onepiece.fandom.com/wiki/Pappug"
+    },
+    {
+        "name": "Hatchan",
+        "link": "https://onepiece.fandom.com/wiki/Hatchan"
+    },
+    {
+        "name": "Silvers Rayleigh",
+        "link": "https://onepiece.fandom.com/wiki/Silvers_Rayleigh"
+    },
+    {
+        "name": "Worst Generation",
+        "link": "https://onepiece.fandom.com/wiki/Worst_Generation"
+    },
+    {
+        "name": "Boa Hancock",
+        "link": "https://onepiece.fandom.com/wiki/Boa_Hancock"
+    },
+    {
+        "name": "Emporio Ivankov",
+        "link": "https://onepiece.fandom.com/wiki/Emporio_Ivankov"
+    },
+    {
+        "name": "Edward Newgate",
+        "link": "https://onepiece.fandom.com/wiki/Edward_Newgate"
+    },
+    {
+        "name": "Marco",
+        "link": "https://onepiece.fandom.com/wiki/Marco"
+    },
+    {
+        "name": "Duval",
+        "link": "https://onepiece.fandom.com/wiki/Duval"
+    },
+    {
+        "name": "Charlos",
+        "link": "https://onepiece.fandom.com/wiki/Charlos"
+    },
+    {
+        "name": "Marshall D. Teach",
+        "link": "https://onepiece.fandom.com/wiki/Marshall_D._Teach"
+    },
+    {
+        "name": "Magellan",
+        "link": "https://onepiece.fandom.com/wiki/Magellan"
+    },
+    {
+        "name": "Hannyabal",
+        "link": "https://onepiece.fandom.com/wiki/Hannyabal"
+    },
+    {
+        "name": "Sakazuki",
+        "link": "https://onepiece.fandom.com/wiki/Sakazuki"
+    },
+    {
+        "name": "Kuzan",
+        "link": "https://onepiece.fandom.com/wiki/Kuzan"
+    },
+    {
+        "name": "Borsalino",
+        "link": "https://onepiece.fandom.com/wiki/Borsalino"
+    },
+    {
+        "name": "Sentomaru",
+        "link": "https://onepiece.fandom.com/wiki/Sentomaru"
+    },
+    {
+        "name": "Dracule Mihawk",
+        "link": "https://onepiece.fandom.com/wiki/Dracule_Mihawk"
+    },
+    {
+        "name": "Donquixote Doflamingo",
+        "link": "https://onepiece.fandom.com/wiki/Donquixote_Doflamingo"
+    },
+    {
+        "name": "Momonga",
+        "link": "https://onepiece.fandom.com/wiki/Momonga"
+    },
+    {
+        "name": "Shirahoshi",
+        "link": "https://onepiece.fandom.com/wiki/Shirahoshi"
+    },
+    {
+        "name": "Neptune",
+        "link": "https://onepiece.fandom.com/wiki/Neptune"
+    },
+    {
+        "name": "Surume",
+        "link": "https://onepiece.fandom.com/wiki/Surume"
+    },
+    {
+        "name": "Shyarly",
+        "link": "https://onepiece.fandom.com/wiki/Shyarly"
+    },
+    {
+        "name": "Trafalgar D. Water Law",
+        "link": "https://onepiece.fandom.com/wiki/Trafalgar_D._Water_Law"
+    },
+    {
+        "name": "Kin'emon",
+        "link": "https://onepiece.fandom.com/wiki/Kin%27emon"
+    },
+    {
+        "name": "Kozuki Momonosuke",
+        "link": "https://onepiece.fandom.com/wiki/Kozuki_Momonosuke"
+    },
+    {
+        "name": "Kurozumi Kanjuro",
+        "link": "https://onepiece.fandom.com/wiki/Kurozumi_Kanjuro"
+    },
+    {
+        "name": "Chadros Higelyges",
+        "link": "https://onepiece.fandom.com/wiki/Chadros_Higelyges"
+    },
+    {
+        "name": "Bartolomeo",
+        "link": "https://onepiece.fandom.com/wiki/Bartolomeo"
+    },
+    {
+        "name": "Cavendish",
+        "link": "https://onepiece.fandom.com/wiki/Cavendish"
+    },
+    {
+        "name": "Rebecca",
+        "link": "https://onepiece.fandom.com/wiki/Rebecca"
+    },
+    {
+        "name": "Kyros",
+        "link": "https://onepiece.fandom.com/wiki/Kyros"
+    },
+    {
+        "name": "Riku Doldo III",
+        "link": "https://onepiece.fandom.com/wiki/Riku_Doldo_III"
+    },
+    {
+        "name": "Sabo",
+        "link": "https://onepiece.fandom.com/wiki/Sabo"
+    },
+    {
+        "name": "Caribou",
+        "link": "https://onepiece.fandom.com/wiki/Caribou"
+    },
+    {
+        "name": "Hody Jones",
+        "link": "https://onepiece.fandom.com/wiki/Hody_Jones"
+    },
+    {
+        "name": "Vander Decken IX",
+        "link": "https://onepiece.fandom.com/wiki/Vander_Decken_IX"
+    },
+    {
+        "name": "Hyouzou",
+        "link": "https://onepiece.fandom.com/wiki/Hyouzou"
+    },
+    {
+        "name": "Caesar Clown",
+        "link": "https://onepiece.fandom.com/wiki/Caesar_Clown"
+    },
+    {
+        "name": "Monet",
+        "link": "https://onepiece.fandom.com/wiki/Monet"
+    },
+    {
+        "name": "Vergo",
+        "link": "https://onepiece.fandom.com/wiki/Vergo"
+    },
+    {
+        "name": "Trebol",
+        "link": "https://onepiece.fandom.com/wiki/Trebol"
+    },
+    {
+        "name": "Diamante",
+        "link": "https://onepiece.fandom.com/wiki/Diamante"
+    },
+    {
+        "name": "Pica",
+        "link": "https://onepiece.fandom.com/wiki/Pica"
+    },
+    {
+        "name": "Senor Pink",
+        "link": "https://onepiece.fandom.com/wiki/Senor_Pink"
+    },
+    {
+        "name": "Buffalo",
+        "link": "https://onepiece.fandom.com/wiki/Buffalo"
+    },
+    {
+        "name": "Baby 5",
+        "link": "https://onepiece.fandom.com/wiki/Baby_5"
+    },
+    {
+        "name": "Issho",
+        "link": "https://onepiece.fandom.com/wiki/Issho"
+    },
+    {
+        "name": "Raizo",
+        "link": "https://onepiece.fandom.com/wiki/Raizo"
+    },
+    {
+        "name": "Carrot",
+        "link": "https://onepiece.fandom.com/wiki/Carrot"
+    },
+    {
+        "name": "Pedro",
+        "link": "https://onepiece.fandom.com/wiki/Pedro"
+    },
+    {
+        "name": "Wanda",
+        "link": "https://onepiece.fandom.com/wiki/Wanda"
+    },
+    {
+        "name": "Inuarashi",
+        "link": "https://onepiece.fandom.com/wiki/Inuarashi"
+    },
+    {
+        "name": "Nekomamushi",
+        "link": "https://onepiece.fandom.com/wiki/Nekomamushi"
+    },
+    {
+        "name": "Pekoms",
+        "link": "https://onepiece.fandom.com/wiki/Pekoms"
+    },
+    {
+        "name": "Zunesha",
+        "link": "https://onepiece.fandom.com/wiki/Zunesha"
+    },
+    {
+        "name": "Capone Bege",
+        "link": "https://onepiece.fandom.com/wiki/Capone_Bege"
+    },
+    {
+        "name": "Kaidou",
+        "link": "https://onepiece.fandom.com/wiki/Kaidou"
+    },
+    {
+        "name": "Jack",
+        "link": "https://onepiece.fandom.com/wiki/Jack"
+    },
+    {
+        "name": "Charlotte Linlin",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Linlin"
+    },
+    {
+        "name": "Vinsmoke Judge",
+        "link": "https://onepiece.fandom.com/wiki/Vinsmoke_Judge"
+    },
+    {
+        "name": "Charlotte Katakuri",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Katakuri"
+    },
+    {
+        "name": "Charlotte Pudding",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Pudding"
+    },
+    {
+        "name": "Charlotte Cracker",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Cracker"
+    },
+    {
+        "name": "Charlotte Smoothie",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Smoothie"
+    },
+    {
+        "name": "Charlotte Perospero",
+        "link": "https://onepiece.fandom.com/wiki/Charlotte_Perospero"
+    },
+    {
+        "name": "Kozuki Oden",
+        "link": "https://onepiece.fandom.com/wiki/Kozuki_Oden"
+    },
+    {
+        "name": "Kozuki Hiyori",
+        "link": "https://onepiece.fandom.com/wiki/Kozuki_Hiyori"
+    },
+    {
+        "name": "Kikunojo",
+        "link": "https://onepiece.fandom.com/wiki/Kikunojo"
+    },
+    {
+        "name": "Denjiro",
+        "link": "https://onepiece.fandom.com/wiki/Denjiro"
+    },
+    {
+        "name": "Ashura Doji",
+        "link": "https://onepiece.fandom.com/wiki/Ashura_Doji"
+    },
+    {
+        "name": "Kawamatsu",
+        "link": "https://onepiece.fandom.com/wiki/Kawamatsu"
+    },
+    {
+        "name": "Shinobu",
+        "link": "https://onepiece.fandom.com/wiki/Shinobu"
+    },
+    {
+        "name": "Hyogoro",
+        "link": "https://onepiece.fandom.com/wiki/Hyogoro"
+    },
+    {
+        "name": "Shimotsuki Yasuie",
+        "link": "https://onepiece.fandom.com/wiki/Shimotsuki_Yasuie"
+    },
+    {
+        "name": "Yamato",
+        "link": "https://onepiece.fandom.com/wiki/Yamato"
+    },
+    {
+        "name": "King",
+        "link": "https://onepiece.fandom.com/wiki/King"
+    },
+    {
+        "name": "Queen",
+        "link": "https://onepiece.fandom.com/wiki/Queen"
+    },
+    {
+        "name": "Who's-Who",
+        "link": "https://onepiece.fandom.com/wiki/Who%27s-Who"
+    },
+    {
+        "name": "Black Maria",
+        "link": "https://onepiece.fandom.com/wiki/Black_Maria"
+    },
+    {
+        "name": "Sasaki",
+        "link": "https://onepiece.fandom.com/wiki/Sasaki"
+    },
+    {
+        "name": "Page One",
+        "link": "https://onepiece.fandom.com/wiki/Page_One"
+    },
+    {
+        "name": "Ulti",
+        "link": "https://onepiece.fandom.com/wiki/Ulti"
+    },
+    {
+        "name": "Scratchmen Apoo",
+        "link": "https://onepiece.fandom.com/wiki/Scratchmen_Apoo"
+    },
+    {
+        "name": "Numbers",
+        "link": "https://onepiece.fandom.com/wiki/Numbers"
+    }
+]
