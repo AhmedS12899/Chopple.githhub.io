@@ -5,7 +5,8 @@ const db1 = [
       "occupation": "doctor",
       "devilfruit": true,
       "height": 188,
-      "gender": "female"
+      "gender": "female",
+      "bounty": 930000000
   },
   {
       "name": "Monkey D. Luffy",
@@ -13,7 +14,8 @@ const db1 = [
       "occupation": "captain",
       "devilfruit": true,
       "height": 174,
-      "gender": "male"
+      "gender": "male",
+      "bounty": 3000000000
   },
   {
       "name": "Roronoa Zoro",
@@ -21,7 +23,8 @@ const db1 = [
       "occupation": "swordsmen",
       "devilfruit": false,
       "height": 178,
-      "gender": "male"
+      "gender": "male",
+      "bounty":1111000000
   },
   {
       "name": "Monkey D. Garp",
@@ -29,7 +32,8 @@ const db1 = [
       "occupation": "vice admiral",
       "devilfruit": false,
       "height": 287,
-      "gender": "male"
+      "gender": "male",
+      "bounty": 0
   },
   {
       "name": "Gol D. Roger",
@@ -37,7 +41,8 @@ const db1 = [
       "occupation": "captain",
       "devilfruit": false,
       "height": 274,
-      "gender": "male"
+      "gender": "male",
+      "bounty": 5564800000
   },
   {
       "name": "Koby",
@@ -45,7 +50,8 @@ const db1 = [
       "occupation": "marine captain",
       "devilfruit": false,
       "height": 167,
-      "gender": "male"
+      "gender": "male",
+      "bounty": 0
   }
 ]
 const aL = ["Nico Robin", "Monkey D. Luffy", "Roronoa Zoro", "Monkey D. Garp", "Gol D. Roger", "Koby" ]
@@ -70,6 +76,8 @@ var x3 = document.getElementById("myTable").rows[3].cells;
 var x4 = document.getElementById("myTable").rows[4].cells;
 var x5 = document.getElementById("myTable").rows[5].cells;
 var x6 = document.getElementById("myTable").rows[6].cells;
+var x7 = document.getElementById("myTable").rows[7].cells;
+var berry = document.getElementById('berry');
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
@@ -81,9 +89,31 @@ check.addEventListener('click', function () {
   var h1 = realan.height - 10;
   var h2 = realan.height + 10;
   
-  if ((myInput.value) === aL[random]) {//If user guesses correctly it will label field green and win screen will pop up.
+
+  if(myInput.value === ""){
+    if(score ===6){
+      document.querySelector(".r1").style.opacity = "0";
+    }
+    if(score ===5){
+      document.querySelector(".r2").style.opacity = "0";
+    }
+    if(score ===4){
+      document.querySelector(".r3").style.opacity = "0";
+    }
+    if(score ===3){
+      document.querySelector(".r4").style.opacity = "0";
+    }
+    if(score ===2){
+      document.querySelector(".r5").style.opacity = "0";
+    }
+    if(score ===1){
+      document.querySelector(".r6").style.opacity = "0";
+    }   
+  }
+  else if ((myInput.value) === aL[random]) {//If user guesses correctly it will label field green and win screen will pop up.
     win++;
     localStorage.setItem(win_score, win);
+    document.querySelector('.info').textContent = an.name;
     document.querySelector('.win').style.display = "inline"
     document.querySelector(".autocomplete").style.display = "none";
     document.querySelector(".check").style.display = "none";
@@ -115,6 +145,10 @@ check.addEventListener('click', function () {
       if(an.gender === realan.gender){
         x1[5].style.backgroundColor = "#538d4e"
       }
+      x1[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x1[6].style.backgroundColor = "#538d4e"
+      }
     }
 
     if(score ===5){
@@ -144,6 +178,10 @@ check.addEventListener('click', function () {
       x2[5].innerHTML = an.gender;
       if(an.gender === realan.gender){
         x2[5].style.backgroundColor = "#538d4e"
+      }
+      x2[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x2[6].style.backgroundColor = "#538d4e"
       }
     }
 
@@ -175,6 +213,10 @@ check.addEventListener('click', function () {
       if(an.gender === realan.gender){
         x3[5].style.backgroundColor = "#538d4e"
       }
+      x3[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x3[6].style.backgroundColor = "#538d4e"
+      }
     }
     
     if(score ===3){
@@ -204,6 +246,10 @@ check.addEventListener('click', function () {
       x4[5].innerHTML = an.gender;
       if(an.gender === realan.gender){
         x4[5].style.backgroundColor = "#538d4e"
+      }
+      x4[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x4[6].style.backgroundColor = "#538d4e"
       }
     }
 
@@ -235,6 +281,10 @@ check.addEventListener('click', function () {
       if(an.gender === realan.gender){
         x5[5].style.backgroundColor = "#538d4e"
       }
+      x5[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x5[6].style.backgroundColor = "#538d4e"
+      }
     }
 
     if(score ===1){
@@ -265,11 +315,15 @@ check.addEventListener('click', function () {
       if(an.gender === realan.gender){
         x6[5].style.backgroundColor = "#538d4e"
       }
+      x6[6].innerHTML = an.bounty;
+      if(an.bounty === realan.bounty){
+        x6[6].style.backgroundColor = "#538d4e"
+      }
     }
     
   }
 
-  if((myInput.value) != aL[random]){//If user has an incorrect guess it will check which fields are correct.
+  else if((myInput.value) != aL[random]){//If user has an incorrect guess it will check which fields are correct.
       if(score ===6){
         document.querySelector(".r1").style.opacity = "1";
         x1[0].innerHTML = an.name;
@@ -298,7 +352,7 @@ check.addEventListener('click', function () {
           if(an.height === realan.height){
             x1[4].style.backgroundColor = "#538d4e";
           } 
-          if ( (h1 < an.height) && (an.height < h2)){
+          if ( (h1 <= an.height) && (an.height <= h2)){
             x1[4].style.backgroundColor = "#b59f3b";
           }
           if ((an.height < h1) || (h2 < an.height)){
@@ -309,6 +363,15 @@ check.addEventListener('click', function () {
           x1[5].style.backgroundColor = "#538d4e";
         } else{
           x1[5].style.backgroundColor = "--white";
+        }
+        x1[6].innerHTML = an.bounty;
+
+        if(an.bounty === realan.bounty){
+          x1[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x1[6].style.backgroundColor = "--close";
+        }else {
+          x1[6].style.backgroundColor = "--white";
         }
       }
 
@@ -340,7 +403,7 @@ check.addEventListener('click', function () {
         if(an.height === realan.height){
           x2[4].style.backgroundColor = "#538d4e";
         } 
-        if ( (h1 < an.height) && (an.height < h2)){
+        if ( (h1 <= an.height) && (an.height <= h2)){
           x2[4].style.backgroundColor = "#b59f3b";
         }
         if ((an.height < h1) || (h2 < an.height)){
@@ -351,6 +414,15 @@ check.addEventListener('click', function () {
           x2[5].style.backgroundColor = "#538d4e"
         }else{
           x2[5].style.backgroundColor = "--white"
+        }
+
+        x2[6].innerHTML = an.bounty;
+        if(an.bounty === realan.bounty){
+          x2[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x2[6].style.backgroundColor = "--close";
+        }else {
+          x2[6].style.backgroundColor = "--white";
         }
       }
 
@@ -382,7 +454,7 @@ check.addEventListener('click', function () {
         if(an.height === realan.height){
           x3[4].style.backgroundColor = "#538d4e";
         } 
-        if ( (h1 < an.height) && (an.height < h2)){
+        if ( (h1 <= an.height) && (an.height <= h2)){
           x3[4].style.backgroundColor = "#b59f3b";// WHY DOES IT KEEP COMING UP YELLOW ??? THE IF STATEMENT ???
         }
         if ((an.height < h1) || (h2 < an.height)){
@@ -393,6 +465,15 @@ check.addEventListener('click', function () {
           x3[5].style.backgroundColor = "#538d4e"
         } else{
           x3[5].style.backgroundColor = "--white"
+        }
+
+        x3[6].innerHTML = an.bounty;
+        if(an.bounty === realan.bounty){
+          x3[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x3[6].style.backgroundColor = "--close";
+        }else {
+          x3[6].style.backgroundColor = "--white";
         }
       }
       
@@ -424,7 +505,7 @@ check.addEventListener('click', function () {
         if(an.height === realan.height){
           x4[4].style.backgroundColor = "#538d4e";
         } 
-        if ( (h1 < an.height) && (an.height < h2)){
+        if ( (h1 <= an.height) && (an.height <= h2)){
           x4[4].style.backgroundColor = "#b59f3b";
         }
         if ((an.height < h1) || (h2 < an.height)){
@@ -435,6 +516,14 @@ check.addEventListener('click', function () {
           x4[5].style.backgroundColor = "#538d4e"
         } else{
           x4[5].style.backgroundColor = "--white"
+        }
+        x4[6].innerHTML = an.bounty;
+        if(an.bounty === realan.bounty){
+          x4[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x4[6].style.backgroundColor = "--close";
+        }else {
+          x4[6].style.backgroundColor = "--white";
         }
       }
 
@@ -466,7 +555,7 @@ check.addEventListener('click', function () {
         if(an.height === realan.height){
           x5[4].style.backgroundColor = "#538d4e";
         } 
-        if ( (h1 < an.height) && (an.height < h2)){
+        if ( (h1 <= an.height) && (an.height <= h2)){
           x5[4].style.backgroundColor = "#b59f3b";
         }
         if ((an.height < h1) || (h2 < an.height)){
@@ -477,6 +566,14 @@ check.addEventListener('click', function () {
           x5[5].style.backgroundColor = "#538d4e"
         } else{
           x5[5].style.backgroundColor = "--white"
+        }
+        x5[6].innerHTML = an.bounty;
+        if(an.bounty === realan.bounty){
+          x5[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x5[6].style.backgroundColor = "--close";
+        }else {
+          x5[6].style.backgroundColor = "--white";
         }
       }
 
@@ -508,7 +605,7 @@ check.addEventListener('click', function () {
         if(an.height === realan.height){
           x6[4].style.backgroundColor = "#538d4e";
         } 
-        if ( (h1 < an.height) && (an.height < h2)){
+        if ( (h1 <= an.height) && (an.height <= h2)){
           x6[4].style.backgroundColor = "#b59f3b";
         }
         if ((an.height < h1) || (h2 < an.height)){
@@ -520,20 +617,28 @@ check.addEventListener('click', function () {
         } else{
           x6[5].style.backgroundColor = "--white"
         }
+        x6[6].innerHTML = an.bounty;
+        if(an.bounty === realan.bounty){
+          x6[6].style.backgroundColor = "#538d4e";
+        } else if ((realan.bounty - 500000) <= an.bounty || an.bounty < (realan.bounty + 500000) ){
+          x6[6].style.backgroundColor = "--close";
+        }else {
+          x6[6].style.backgroundColor = "--white";
+        }
       }
 
       score--;
   }
 
   if(score === 0){ //When you lose the lose screen pops up.
+    //document.querySelector('.info2').textContent = an.name;
     lose++;
     localStorage.setItem(lose_score, lose);
-    document.querySelector('.ans').textContent = realan.name;
+    document.querySelector('.info2').textContent = realan.name;
     document.querySelector('.lose').style.display = "inline"
     document.querySelector(".autocomplete").style.display = "none";
     document.querySelector(".check").style.display = "none";
   }
- 
   myInput.value = "";
 });
 
