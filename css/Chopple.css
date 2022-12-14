@@ -1,3 +1,11 @@
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+  background-color: white;
+  color: black;
+  margin: 0px;
+}
+
 h1{
   text-align: center;
   padding-top: 25px;
@@ -12,17 +20,6 @@ h1{
   
 }
 
-* { box-sizing: border-box; }
-body {
-  font: 16px Arial;
-  background-color: white;
-  color: black;
-  margin: 0px;
-}
-form{
-  display: flex;
-  justify-content: center;
-}
 .autocomplete { 
 position: relative;
 display: inline-block;
@@ -78,8 +75,10 @@ color: #ffffff;
   --empty: #3a3a3c;
   --close: #b59f3b;
   --right: #538d4e;
-  --white: #FFFFFF;
+  --white: #FFFFFF; 
+  --basic: #98d3e8;
 }
+
 
 #game {
   display: flex;
@@ -132,7 +131,7 @@ th {
 }
 
 .r1{
-  opacity: 0; 
+  opacity: 0;
 }
 .r2{
   opacity: 0;
@@ -147,6 +146,9 @@ th {
   opacity: 0;
 }
 .r6{
+  opacity: 0;
+}
+.r7{
   opacity: 0;
 }
 
@@ -196,6 +198,7 @@ th {
 }
 .dark-mode input{
   color:black;
+  --basic: #e289b2;
 }
 
 .dark-mode th{
