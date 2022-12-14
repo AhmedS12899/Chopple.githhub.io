@@ -76,14 +76,16 @@
     <div id = "chart">
         <table id = "myTable" style="width:100%">
             <tr>
-              <th>Name</th>
+              <th style = "background-color: #98d3e8;">Name</th>
               <th style = "background-color: #e289b2;">Affliation</th>
               <th style = "background-color: #98d3e8;">Occupation</th>
-              <th>Devil Fruit</th>
-              <th style = "background-color: #e289b2;">Height</th>
-              <th style = "background-color: #98d3e8;">Gender</th>
+              <th style = "background-color: #e289b2;">Devil Fruit</th>
+              <th style = "background-color: #98d3e8;">Height</th>
+              <th style = "background-color: #e289b2;">Gender</th>
+              <th style = "background-color: #98d3e8;">Bounty <img id="berry" src="images/Beli.webp" /></th>
             </tr>
             <tr class = "r1">
+                <th></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -98,8 +100,10 @@
                 <th></th>
                 <th></th>
                 <th></th>
+                <th></th>
               </tr>
               <tr class = "r3">
+                <th></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -114,8 +118,10 @@
                 <th></th>
                 <th></th>
                 <th></th>
+                <th></th>
               </tr>
               <tr class = "r5">
+                <th></th>
                 <th></th>
                 <th></th>
                 <th></th>
@@ -130,16 +136,26 @@
                 <th></th>
                 <th></th>
                 <th></th>
+                <th></th>
+              </tr>
+              <tr class = "r7">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
               </tr>
           </table>
 
           <div class = "win" id = "win">
-            <p>Congratulations, Play Again!</p>
+            <h2>You Guessed Correct: <span class ="info"></span></h2>
             <button id = "myBtn" class = "butt">Restart</button>
           </div>
           <div class = "lose" id = "lose">
             <p>Better Luck Next Time.</p>
-            <p>The Answer Was: <span class = 'ans'>Ur Mom</span></p>
+            <p>The Answer Was: <span class ="info2"></span></p>
             <button id = "myBtn" class = "butt2">Restart</button>
              
           </div>
