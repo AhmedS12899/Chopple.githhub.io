@@ -55,7 +55,7 @@ table1=soup.find('table').findAll('tr')
 
 #takes only the name and chapter of introduction from the 1st table of canon characters (only first 50 for now)
 #takes only first 4 as table 1 is large
-details=[[j for j in i.findAll('td')[1:3]] for i in table1[1:51]]
+details=[[j for j in i.findAll('td')[1:3]] for i in table1[1:10]]
 
 
 wiki='https://onepiece.fandom.com'
@@ -80,12 +80,20 @@ for item in details:
                         affiliation=None
         
         pic=soup.find("figure","pi-item pi-image").find("a").get("href")
-        hintList=soup.find_all("p",string=re.compile(name))
-        hint_exposed=random.choice(hintList).text
-        hint=hint_exposed.replace(name,"___")
+        try:
+                hintList=soup.find_all("p",string=re.compile(name))
+        except:
+                hintList=soup.find_all("p")
+                hint_exposed=random.choice(hintList).text
+
+        else:
+                hintList=soup.find_all("p",string=re.compile(name))
+                hint_exposed=random.choice(hintList).text
+                hint=hint_exposed.replace(name,"___")
+        
 
         #adding character data to database
-        c.execute('''INSERT INTO characters VALUES(?,?,?,?)''',(name,pic,saga,affiliation,hint))
+        c.execute('''INSERT INTO characters VALUES(?,?,?,?,?)''',(name,pic,saga,affiliation,hint))
         conn.commit()
 
 #prints table
@@ -94,7 +102,7 @@ results =c.fetchall()
 print(results)
 
 # doesn't delete table from gitpod
-#c.execute('''DROP TABLE characters''')
+c.execute('''DROP TABLE characters''')
 
 #closes database
 conn.close()
