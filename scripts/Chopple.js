@@ -2325,6 +2325,9 @@ check.addEventListener('click', function () {
       }
 
       if(score ===2){
+        //cropImage(realan.pic);
+        //This will work when database is updated takes in url to image of character
+
         document.querySelector(".r5").style.opacity = "1";
         x5[0].innerHTML = an.name;
 
@@ -2423,6 +2426,7 @@ check.addEventListener('click', function () {
       }
 
       score--;
+      document.getElementById("lives").innerHTML="Lives: "+score;
   }
 
   if(score === 0){ //When you lose the lose screen pops up.
@@ -2815,3 +2819,29 @@ butt2.addEventListener('click', function () {
   document.querySelector(".autocomplete").style.display = "inline-block";
   document.querySelector(".check").style.display = "inline-block";
 });
+function cropImage(imagePath) {
+  // Connnects canvas
+  const canvas = document.getElementById('canvas'); 
+  const ctx = canvas.getContext('2d');
+  
+  //create an image object from the path
+  const originalImage = new Image();
+  originalImage.src = imagePath;
+
+  var array=[0,originalImage.width/2];
+  var array2=[0,originalImage.height/2];
+    console.log(array2);
+
+    newWidth=originalImage.width/2;
+    newHeight=originalImage.height/2;
+
+    canvas.width = originalImage.width/2;
+    canvas.height = originalImage.height/2;
+  
+    newX=array[Math.floor(Math.random() * array.length)];
+    newY=array2[Math.floor(Math.random() * array2.length)];
+         
+    //draw the image
+    console.log(originalImage.width);
+    ctx.drawImage(originalImage, newX, newY, newWidth, newHeight, 0, 0, newWidth, newHeight);  
+}

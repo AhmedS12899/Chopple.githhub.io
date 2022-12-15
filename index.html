@@ -65,7 +65,13 @@
       <img alt ="" src = "images/choppletitle2.png" class = "b" id = "myImage" onClick = "dm()" style="display: inline;">
       <img alt ="" src = "images/choppletitle1.png" class = "c" id = "myImage2" onClick = "dm2()" style="display: none;"> 
     </h1>
-    
+
+    <div id="Hint" style="text-align: center;">
+      <div><canvas id="canvas"></canvas></div>
+      <!--Test
+        <button type="button" onclick="cropImage('https://toppng.com/uploads/preview/file-history-one-piece-logo-11563071942adcognuldv.png')">Image cropped</button>
+      instead of button trigger should automatically trigger when Lives=2-->
+    </div>
 
     
     <form autocomplete="off">
@@ -75,7 +81,9 @@
         <button type = "button" class='check'>Check</button>
         
     </form>
-
+    <div id="guesses" style="text-align: center;">
+      <p id="lives">Lives: 6</p>
+    </div>
      
     <div id = "chart">
         <table id = "myTable" style="width:100%">
