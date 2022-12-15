@@ -55,7 +55,7 @@ table1=soup.find('table').findAll('tr')
 
 #takes only the name and chapter of introduction from the 1st table of canon characters (only first 50 for now)
 #takes only first 4 as table 1 is large
-details=[[j for j in i.findAll('td')[1:3]] for i in table1[1:10]]
+details=[[j for j in i.findAll('td')[1:3]] for i in table1[1:50]]
 
 
 wiki='https://onepiece.fandom.com'
@@ -82,9 +82,13 @@ for item in details:
         pic=soup.find("figure","pi-item pi-image").find("a").get("href")
         try:
                 hintList=soup.find_all("p",string=re.compile(name))
+        #If there is no p on thier page
+        except (IndexError):
+                hint="";
+        # if there are no sentences on the character wiki with thier name        
         except:
                 hintList=soup.find_all("p")
-                hint_exposed=random.choice(hintList).text
+                hint=random.choice(hintList).text
 
         else:
                 hintList=soup.find_all("p",string=re.compile(name))
